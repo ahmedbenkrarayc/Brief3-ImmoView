@@ -1,4 +1,4 @@
-header{
+.Catalog-header{
     background-image:url("../assets/catalog/background1.png"),url("../assets/catalog/bg.png") ;
     background-size: cover;
     width: 100%;
@@ -7,34 +7,24 @@ header{
    
     
 }
-*{
-    font-family: "Poppins", sans-serif;
-}
-nav{
-    margin-right: 50px;
-}
-nav ,.Navlinks,.text-header{
+
+
+.Navlinks,.Catalog-text-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
-h1{
-    margin-bottom: 100px;
-}
-.text-header{
+
+.Catalog-text-header{
     flex-direction: column;
     justify-content: space-between;
 }
-a{
-    text-decoration: none;
-    color: aliceblue;
-    
-}
+
 .Navlinks{
     width: 700px;
 }
-.HeaderContent{
+.Catalog-HeaderContent{
     width: 100%;
     height: 40%;
     display: flex;
@@ -53,25 +43,55 @@ a{
     align-items: center;
 
 }
-.BarreDeFiltrage{
+.Catalog-BarreDeFiltrage{
     align-items: center;
     width: 80%;
     height: 33px;
     display: flex;
     justify-content: space-between;
 }
-.IconsCon{
+.Catlog-IconsCon{
     display: flex;
     width: 60%;
     justify-content: space-between;
     height: 200px;
 }
-.Icon{
+.CatalogIcon{
     text-align: center;
     width: 15%;
     height: 100%;
 
 }
-.ProprietiesFiltre{
+.Catalog-ProprietiesFiltre{
     width: 20%;
+}
+.Catalog-PropretiesContainer{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+.Catalog-proprety1{
+    background-image: url("../assets/catalog/p1.png");
+}
+.Catalog-proprety2{
+    background-image: url("../assets/catalog/p2.png");
+}
+.Catalog-proprety3{
+    background-image: url("../assets/catalog/p3.png");
+}
+.Catalog-proprety4{
+    background-image: url("../assets/catalog/p4.png");
+}
+.Catalog-proprety5{
+    background-image: url("../assets/catalog/p5.png");
+}
+.Catalog-proprety6{
+    background-image: url("../assets/catalog/p6.png");
+}
+.Catalog-Slides-bottom{
+    display: flex;
+}
+.CP{
+    background-size: cover;
 }
