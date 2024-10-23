@@ -33,18 +33,18 @@
 
     </header>
     <div class="Catalog-Container">
-        <div class="Catalog-BarreDeFiltrage">
-           <div>
+        <div class="Catalog-BarreDeFiltrage Catalog-BarreDeFiltrage-ForMobile">
+           <div class="Catalog-SearchInmobile">
             <label for="KeyWord">Keyword</label>
             <input type="text" name="keyWord">
            </div>
-           <div>
+           <div class="Catalog-HideInMobile">
             <label for="Status">Status</label>
             <select name="Status" id="">
                 <option value="All Type">All Type</option>
             </select>
            </div>
-           <div>
+           <div class="Catalog-HideInMobile">
             <label for="Type">Type</label>
             <input type="text" name="Type">
            </div>
@@ -52,7 +52,7 @@
             <img src="../assets/catalog/Vector.png" alt="" srcset="">
             <label for="Type">Filter</label>
            </div>
-           <button id="SearchButton">Search</button>
+           <button id="SearchButton" class="Catalog-HideInMobile">Search</button>
 
         </div>
         <h2>Why You Should Work With Us</h2>

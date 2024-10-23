@@ -1,3 +1,4 @@
+/* start catalog */
 .Catalog-header{
     background-image:url("../assets/catalog/background1.png"),url("../assets/catalog/bg.png") ;
     background-size: cover;
@@ -95,3 +96,25 @@
 .CP{
     background-size: cover;
 }
+@media only screen and (max-width: 600px) {    
+    .Catalog-PropretiesContainer{
+        grid-template-columns: auto ;
+  gap: 6px;
+  /* padding: 6px; */
+    }
+    .Catalog-SearchInmobile{
+        width: 90%;
+    }
+    .Catalog-HideInMobile{
+        display: none;
+    }
+    .Catalog-BarreDeFiltrage-ForMobile{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: start;
+        width: 100%;
+    }
+}
+
+/* end catalog */
