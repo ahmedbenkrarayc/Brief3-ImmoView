@@ -48,11 +48,30 @@ a{
 .Catalog-Container{
     width: 100%;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .BarreDeFiltrage{
+    align-items: center;
     width: 80%;
-    height: 200px;
+    height: 33px;
     display: flex;
     justify-content: space-between;
+}
+.IconsCon{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    height: 200px;
+}
+.Icon{
+    text-align: center;
+    width: 15%;
+    height: 100%;
+
+}
+.ProprietiesFiltre{
+    width: 20%;
 }
