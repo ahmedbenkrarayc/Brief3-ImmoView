@@ -45,3 +45,14 @@ a{
 #Catalog-View-Details-Button{
     width: 100px;
 }
+.Catalog-Container{
+    width: 100%;
+    height: 500px;
+
+}
+.BarreDeFiltrage{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
