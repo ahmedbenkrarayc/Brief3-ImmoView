@@ -5,3 +5,38 @@
     margin: 0;
     font-family: "Poppins", serif;
 }
+/* start page contact */
+
+.contact_first_line {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.contact_second_step{
+    background-image: url(/assets/contact_img/Rectangle\ 3841.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5vw;
+    margin-left: ;
+}
+.contact_second_step_img{
+    display: flex;
+    flex-direction: column;
+    width: 1vw;
+    margin-left:1vw;
+}
+
+
+
+
+
+
+
+
+
+/* end page contact */
