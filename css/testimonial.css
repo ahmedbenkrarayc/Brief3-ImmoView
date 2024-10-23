@@ -6,8 +6,14 @@
     font-family: poppins;
     box-sizing: border-box;
 }
+/*body{
+    height: 100vh;
+    background-image: url('../assets/testimonial/image\ 58.png')  ;
+    background-size: center;
+    background-position: center;
+}*/
 
-#media{
+/*#media{
      display: flex;
      justify-content: center;
      align-items: center;
@@ -27,4 +33,5 @@
 .testemonial h3{
     
     padding: 10px 20px;
-}
+}*/
+
