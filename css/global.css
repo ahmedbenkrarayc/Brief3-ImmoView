@@ -1,16 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-<<<<<<< HEAD
-=======
 *{
     padding: 0;
     margin: 0;
     font-family: "Poppins", serif;
 }
->>>>>>> 25d62ce77ac222a47247cc258e1b59c3e7e1421e
 
 
 /* testimonial start */
+
+.container-testimonial{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+.testimonial{
+    padding: 100px 0;
+}
+.img12{
+    width: 100px;
+}
+
+.testimonial {
+       text-align: center;
+       margin-bottom: 50px;
+}
+.testimonial .title-testimonial{
+    font-size: 30px;
+    font-weight: 600;
+     
+}
+.item-testimonial{
+    background-color: #F3F5F5;
+    padding: 30px;
+    border-radius: 30px;
+    width: 500px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+
+}
+.content-testimonial{
+    display: grid;
+}
+.item-testimonial img{
+    max-width: 70px;
+    border-radius: 80%;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+.item-testimonial .info{
+    display: flex;
+    align-items: center;
+}
+.item-testimonial .name{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.item-testimonial .job{
+    color: #8D8D8D;
+}
+.item-testimonial p{
+      margin-top: 20px;
+}
+.item-testimonial .rating{
+    margin-left: 450px;
+}
+.item-testimonial{
+
+}
 
 
 
