@@ -138,6 +138,7 @@
     }
  }
 @media only screen and (max-width: 600px) {    
+
     .Catalog-PropretiesContainer{
         grid-template-columns: auto ;
   gap: 6px;
@@ -176,6 +177,9 @@
     }
     .Catalog-justInmobile{
         display: normal;
+    }
+    .Catalog-proprieties{
+        display: flex;
     }
 }
 
