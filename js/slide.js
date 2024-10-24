@@ -26,22 +26,23 @@ function showSlides(n) {
   }
 
   // Show the current, previous, and next slides
-  if (slideIndex === 1) {
-    slides[0].style.display = "block";  
+  if (slideIndex === 0) {
+    slides[slideIndex].style.display = "block";  
     slides[slides.length - 1].style.display = "block"; // Last slide
     slides[1].style.display = "block"; // Second slide
-  } else if (slideIndex === slides.length) {
-    slides[slideIndex - 1].style.display = "block"; // Current slide
-    slides[slideIndex - 2].style.display = "block"; // Previous slide
+  } else if (slideIndex === slides.length-1) {
+    slides[slideIndex ].style.display = "block"; // Current slide
+    slides[slideIndex - 1].style.display = "block"; // Previous slide
     slides[0].style.display = "block"; // First slide
   } else {
-    slides[slideIndex - 1].style.display = "block"; // Current slide
-    slides[slideIndex].style.display = "block"; // Next slide
-    slides[slideIndex + 1].style.display = "block"; // Slide after next
+    slides[slideIndex ].style.display = "block"; // Current slide
+    slides[slideIndex+1].style.display = "block"; // Next slide
+    slides[slideIndex - 1].style.display = "block"; // Slide after next
   }
 
   // Set the active dot
   dots[slideIndex - 1].className += " active";
-  
+  console.log(" slideS:", slides.length);
+
   console.log("Current slide index:", slideIndex);
 }
