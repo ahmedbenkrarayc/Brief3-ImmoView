@@ -33,7 +33,7 @@
     object-fit: cover;
 }
 
-.home-header nav{
+.topnav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,16 +41,16 @@
     margin-inline: auto;
 }
 
-.home-header nav ul{
+.topnav ul{
     display: flex; 
     list-style: none;
 }
 
-.home-header nav li{
+.topnav li{
     margin-inline: 10px;
 }
 
-.home-header nav a{
+.topnav a{
     text-decoration: none;
     font-size: 13px; 
     font-weight: 400;
