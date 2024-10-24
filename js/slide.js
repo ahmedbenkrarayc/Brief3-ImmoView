@@ -13,37 +13,35 @@ function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("Catalog-slideb");
   let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
+
+  if (n > slides.length) { slideIndex = 1; }
+  if (n < 1) { slideIndex = slides.length; }
+
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
+
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
 
- 
-if(slideIndex == 1){
-    slides[slideIndex].style.display = "block";  
-    slides[slides.length-1].style.display = "block";
-    slides[slideIndex+1].style.display = "block";
-}
-else if (slideIndex == slides.length  ){
-    slides[slideIndex-1].style.display = "block";  
-    slides[slideIndex].style.display = "block";
-    slides[0].style.display = "block";
-}else if(slideIndex > 1 && slideIndex < slides.length){
-    slides[slideIndex-1].style.display = "block";  
-    slides[slideIndex].style.display = "block";
-    slides[slideIndex+1].style.display = "block";
-}
+  // Show the current, previous, and next slides
+  if (slideIndex === 1) {
+    slides[0].style.display = "block";  
+    slides[slides.length - 1].style.display = "block"; // Last slide
+    slides[1].style.display = "block"; // Second slide
+  } else if (slideIndex === slides.length) {
+    slides[slideIndex - 1].style.display = "block"; // Current slide
+    slides[slideIndex - 2].style.display = "block"; // Previous slide
+    slides[0].style.display = "block"; // First slide
+  } else {
+    slides[slideIndex - 1].style.display = "block"; // Current slide
+    slides[slideIndex].style.display = "block"; // Next slide
+    slides[slideIndex + 1].style.display = "block"; // Slide after next
+  }
 
-//   console.log("slide -1");
- 
-  console.log("slide ");
-  console.log(slideIndex);
-//   console.log("slide length");
-//   console.log(slides.length);
+  // Set the active dot
+  dots[slideIndex - 1].className += " active";
   
-//   dots[slideIndex-1].className += " active";
+  console.log("Current slide index:", slideIndex);
 }
