@@ -1999,7 +1999,11 @@ grid-template-columns: repeat(5,1fr);
 
 /*end details*/
 /* start page contact */
-
+.global-contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .contact_first_line {
     display: flex;
@@ -2018,7 +2022,7 @@ grid-template-columns: repeat(5,1fr);
     background-repeat: no-repeat;
   
     width: 40vw;
-    min-height: 40vw;
+    min-height: 100vh;
 
     color: white;
     display: flex;
@@ -2030,6 +2034,7 @@ grid-template-columns: repeat(5,1fr);
     position: relative;
     z-index: 50;
     overflow: hidden;
+    
 }
 .contact_second_step h2,p{
     margin-top: 2vw;
@@ -2043,7 +2048,10 @@ grid-template-columns: repeat(5,1fr);
     flex-direction: column;
     width: 90%;
     margin-left:2vw;
+    margin-top: 2rem;
     gap: 50px;
+    /* border: 2px solid red; */
+    
 }
 
 
@@ -2061,11 +2069,18 @@ grid-template-columns: repeat(5,1fr);
 }
 
 .contact_media{
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-around;
-    margin-top: 1vw;
-    margin-left: 3vw;
-    margin-bottom: 2vw;
+    flex-direction: column;
+    align-items:center;
+    gap: 20px;
+    margin-top: 2rem;
+   
+}
+.contact_media_logo{
+    display: flex;
+    gap: 25px;
 }
 .cercle{
     border-radius: 50%;
@@ -2088,13 +2103,14 @@ grid-template-columns: repeat(5,1fr);
     z-index: -1;
 }
 .contact_form{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 95vw;
     display: flex;
     justify-content: center;
     box-shadow: 2px gray;
     min-height: 647px;
     position: relative;
+    box-shadow: 0 4px 4px 0 rgb(0, 0, 0,0.2);
 }
 .form2{
     margin-top: 10vw;
@@ -2154,19 +2170,27 @@ grid-template-columns: repeat(5,1fr);
     color: #717171;
 }
 
-
+.maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  
+}
 
 
 .contact_service {
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 10rem;
 }
 
 .contact_our_service img{
     width: 25vw;
-    height: 25vw;
+    height: 40vh;
 }
 
 .contact_our_service{
@@ -2174,7 +2198,8 @@ grid-template-columns: repeat(5,1fr);
     margin-top: 5vw;
     display: flex;
     justify-content:space-around;
-    
+    /* border: 2px solid red; */
+    justify-self: center;
     
 }
 
