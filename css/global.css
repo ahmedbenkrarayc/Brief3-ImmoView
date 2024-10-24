@@ -5,3 +5,53 @@
     margin: 0;
     font-family: "Poppins", serif;
 }
+
+/***************************************************************************/
+/****************************    Home Page    ******************************/
+/***************************************************************************/
+.home-headerlogo{
+    width: 110px;
+    object-fit: cover;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-inline: auto;
+}
+
+.header nav ul{
+    display: flex; 
+    list-style: none;
+}
+
+.header nav li{
+    margin-inline: 10px;
+}
+
+.header nav a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.home-nav-white a{
+    color: white !important;
+}
+
+.home-nav-dark a{
+    color: black;
+}
+
+.home-register a{
+    color: white !important;
+    background: black;
+    padding: 8px 26px;
+    font-size: 12px;
+}
+
+/***************************************************************************/
+/****************************     End Home    ******************************/
+/***************************************************************************/
