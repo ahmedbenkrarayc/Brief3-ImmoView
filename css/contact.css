@@ -2,7 +2,7 @@
 
 
 
-.contact_first_line {
+/* .contact_first_line {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -82,8 +82,8 @@
 .mini_form3{
     margin-top: 2vw;
 }
-.mini_form3 input [type=checkbox]{
-    border-radius: 100%;
+.mini_form3 input [type="checkbox"]{
+    border-radius: 50%;
     
 }
 .mini_form3_button{
@@ -136,4 +136,4 @@
     color: gray;
     display: flex;
     justify-content: center;
-}
+} */
