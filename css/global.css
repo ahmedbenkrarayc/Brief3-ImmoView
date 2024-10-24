@@ -88,6 +88,10 @@ margin-bottom: 10%;
     grid-row: 2/3;
     background-color: rgb(165, 161, 151);
 }
+.Detais_Bien{
+    display: flex;
+    flex-direction: column;
+}
 
 /* fin de la page  details  */
 /***************************************************************************/
