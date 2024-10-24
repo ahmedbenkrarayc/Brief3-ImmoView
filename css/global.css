@@ -5,6 +5,16 @@
     margin: 0;
     font-family: "Poppins", serif;
 }
+/* start page contact */
+
+
+
+
+
+
+
+
+/* end page contact */
 
 
 
@@ -18,7 +28,6 @@ body{
 .Details_container{
     min-width: 100vw;
     min-height: 100vh;
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -108,7 +117,7 @@ margin-bottom: 10%;
 
 .header nav a{
     text-decoration: none;
-    font-size: 13px;
+    font-size: 13px; 
     font-weight: 400;
 }
 
