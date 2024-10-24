@@ -7,70 +7,6 @@
 }
 /* start page contact */
 
-.contact_first_line {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-   
-    
-}
-.contact_second_step{
-    background-image: url(/assets/contact_img/Rectangle\ 3841.png);
-    background-repeat: no-repeat;
-  
-    width: 40vw;
-    height: 60vw;
-
-    color: white;
-    display: flex;
-    background-size: cover;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 5vw;
-    border: 2px solid red;
-    margin-left: 5vw;
-
-}
-.contact_second_step h2,p{
-    margin-top: 2vw;
-    margin-left: 2vw;
-}
-
-.contact_second_step_img{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid red;
-    width: 90%;
-    margin-left:2vw;
-}
-.contact_media{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1vw;
-    margin-left: 3vw;
-    margin-bottom: 2vw;
-}
-.contact_service{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.contact_service img{
-    width: 25vw;
-    height: 25vw;
-}
-.contact_our_service{
-    width: 90vw;
-    margin-top: 5vw;
-    display: flex;
-    justify-content:space-around;
-    
-}
-.contact_our_service p{
-    color: gray;
-}
 
 
 
@@ -79,3 +15,53 @@
 
 
 /* end page contact */
+
+/***************************************************************************/
+/****************************    Home Page    ******************************/
+/***************************************************************************/
+.home-headerlogo{
+    width: 110px;
+    object-fit: cover;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-inline: auto;
+}
+
+.header nav ul{
+    display: flex; 
+    list-style: none;
+}
+
+.header nav li{
+    margin-inline: 10px;
+}
+
+.header nav a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.home-nav-white a{
+    color: white !important;
+}
+
+.home-nav-dark a{
+    color: black;
+}
+
+.home-register a{
+    color: white !important;
+    background: black;
+    padding: 8px 26px;
+    font-size: 12px;
+}
+
+/***************************************************************************/
+/****************************     End Home    ******************************/
+/***************************************************************************/
