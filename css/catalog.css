@@ -48,6 +48,8 @@
 
 }
 .Catalog-BarreDeFiltrage{
+    margin-top: 100px;
+
     align-items: center;
     width: 80%;
     height: 33px;
@@ -85,6 +87,7 @@
 .Catalog-proprety5{
     background-image: url("../assets/catalog/p5.png");
 }
+
 .Catalog-proprety6{
     background-image: url("../assets/catalog/p6.png");
 }
@@ -107,8 +110,9 @@
     height: 300px;
     background-size: cover;
     display: flex;
-    align-items: end;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .Catalog-proprieties{
     width: 100%;
@@ -155,7 +159,14 @@
     }
  }
 @media only screen and (max-width: 600px) {    
+    .catalog-desc{
+        width: 100%;
+        height: 30%;
+        background-color: wheat;
+        margin-bottom: 0px;
 
+    
+    }
     .Catalog-PropretiesContainer{
         grid-template-columns: auto ;
   gap: 6px;
@@ -202,6 +213,16 @@
     } 
     .Catalog-slideb img{
         width: 120px;
+    }
+    .CP{
+        width: 100vw;
+        height: 300px;
+        margin-bottom: 30px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
     }
 }
 
