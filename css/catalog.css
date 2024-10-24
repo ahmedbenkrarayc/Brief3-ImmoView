@@ -116,14 +116,23 @@
 
 }
 .Catalog-desc-Contaner{
+    border-radius: 10px;
     height: 30%;
+    background-color: white;
 }
 .Catalog-desc-localisation , .Catalog-proprety-infos ,.Catalog-desc-infos ,.catalog-bed ,.catalog-shower , .catalog-space{
     display: flex;
+    
+}
+.Catalog-desc-localisation img ,.Catalog-proprety-infos img{
+    height: 20px;
 }
 .catalog-info{
     width: 100%;
     display: flex;
+}
+.Catalog-desc-infos{
+    justify-content: space-between;
 }
 .CP{
     width: 300px;
