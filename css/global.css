@@ -75,7 +75,7 @@
 /****************************     End Home    ******************************/
 /***************************************************************************/
 /* start catalog /////////////////////////////////////////////////////////*/
-.Navlinks{
+/* /* .Navlinks{
     color: white;
 }
 .Catalog-header{
@@ -134,7 +134,7 @@
     display: flex;
     width: 60%;
     justify-content: space-between;
-    height: 200px;
+    height: max-content;
 }
 .CatalogIcon{
     text-align: center;
@@ -184,7 +184,7 @@
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
-  }
+  } */
   .dot {
     cursor: pointer;
     height: 15px;
@@ -201,12 +201,12 @@
   }
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
+  /* .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
-  }
+  } */ */
  
 /* end catalog ////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
