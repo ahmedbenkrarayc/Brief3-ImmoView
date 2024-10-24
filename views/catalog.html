@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/catalog.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <title>Catalog</title>
+</head>
+<body>
+    <header class="Catalog-header">
+        <!-- <nav class="home-nav-white">
+            <img class="home-headerlogo" src="./../assets/home/logo.png" alt="logo">
+
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./catalog.html">Catalog</a></li>
+                <li><a href="./testimonial.html">Testimonial</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li class="home-register"><a href="./register">Register</a></li>
+            </ul>
+        </nav> -->
+        <div class="Catalog-HeaderContent">
+            <h1>Catalog</h1>
+
+            <div class="Catalog-text-header">
+               
+                    <p>5Beds   2Baths  180 sqft</p>
+                
+                <p>$250/month</p>
+                <input type="button" value="View Details" id="Catalog-View-Details-Button">
+            </div>
+
+        </div>
+
+    </header>
+    <div class="Catalog-Container">
+        <h2>Why You Should Work With Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="Catlog-IconsCon">
+            <div class="CatalogIcon">
+            <img src="../assets/catalog/Icon1.png" alt="" srcset="">
+            <h4>Wide Range of Properties</h4>
+            <p>We offer expert legal help for all related property
+                items in Dubai.</p>
+            </div>
+            <div class="CatalogIcon">
+                <img src="../assets/catalog/Icon1.png" alt="" srcset="">
+                <h4>Wide Range of Properties</h4>
+                <p>We offer expert legal help for all related property
+                    items in Dubai.</p>
+            </div>
+            <div class="CatalogIcon">
+                    <img src="../assets/catalog/Icon3.png" alt="" srcset="">
+                    <h4>Wide Range of Properties</h4>
+                    <p>We offer expert legal help for all related property
+                        items in Dubai.</p>
+            </div>
+        </div>
+        <div class="Catalog-BarreDeFiltrage Catalog-BarreDeFiltrage-ForMobile">
+           <div class="Catalog-SearchInmobile">
+            <label for="KeyWord">Keyword</label>
+            <input type="text" name="keyWord">
+           </div>
+           <div class="Catalog-HideInMobile">
+            <label for="Status">Status</label>
+            <select name="Status" id="">
+                <option value="All Type">All Type</option>
+            </select>
+           </div>
+           <div class="Catalog-HideInMobile">
+            <label for="Type">Type</label>
+            <input type="text" name="Type">
+           </div>
+           <div>
+            <img src="../assets/catalog/Vector.png" alt="" srcset="">
+            <label for="Type">Filter</label>
+           </div>
+           <button id="SearchButton" class="Catalog-HideInMobile">Search</button>
+
+        </div>
+        
+        <h2 class="Catalog-HideInMobile">Featured Properties</h2>
+        <p class="Catalog-HideInMobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="Catalog-ProprietiesFiltre">
+            <button>All propreties</button>
+            <button>For Sale</button>
+            <button>For Rent</button>
+            
+        </div>
+        <div>
+            <div class="Catalog-PropretiesContainer">
+                <div class="Catalog-proprety1 CP">
+                    <img src="../assets/catalog/p1.png" alt="" srcset="">
+                </div>
+                <div class="Catalog-proprety2 CP">
+                    <img src="../assets/catalog/p1.png" alt="" srcset="">
+                </div>
+                <div class="Catalog-proprety3 CP">
+                    <img src="../assets/catalog/p1.png" alt="" srcset="">
+                </div>
+                <div class="Catalog-proprety4 CP">
+                    <img src="../assets/catalog/p1.png" alt="" srcset="">
+                </div>
+                <div class="Catalog-proprety5 CP">
+                    <img src="../assets/catalog/p1.png" alt="" srcset="">
+                </div>
+                <div class="Catalog-proprety6 CP">
+                    <img src="../assets/catalog/p1.png" alt="" srcset="">
+                </div>
+    
+            </div>
+            <button>See All Listing -></button>
+        </div>
+        <div class="Catalog-justInmobile">
+            <P>
+                Recommended properties
+            ------ View All</p>
+            <div class="Catalog-proprieties">
+                <div class="Catalog-rp">
+                    <img src="../assets/catalog/rp1.png" alt="">
+                    <p>Saadiyat reserve</p>
+
+                    
+                </div>
+                <div class="Catalog-rp">
+                    <img src="../assets/catalog/rp2.png" alt="">
+                    <p>Meraas Le Pont Apartments</p>
+                </div>
+
+            </div>
+            <button>view more</button>
+        </div>
+        <div class="Catalog-Propreties">
+            <h2>Find Properties in These Cities</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="Catalog-Slides-bottom">
+                <div  class="Catalog-slideb fade"><img src="../assets/catalog/c1.png" alt=""></div>
+                <div  class="Catalog-slideb fade"><img src="../assets/catalog/c2.png" alt=""></div>
+                <div  class="Catalog-slideb fade"><img src="../assets/catalog/c3.png" alt=""></div>
+                <div  class="Catalog-slideb fade"><img src="../assets/catalog/c4.png" alt=""></div>
+                <div  class="Catalog-slideb fade"><img src="../assets/catalog/c5.png" alt=""></div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
+        </div>
+    </div>
+    
+    <script src="../js/slide.js"></script>
+</body>
+</html>

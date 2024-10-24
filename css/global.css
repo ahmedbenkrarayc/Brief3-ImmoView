@@ -143,8 +143,19 @@
     margin-left: 70px;
     margin-right: 70px;
 }
-.ccc{
-   
+
+.titre-testimonial{
+      margin-left: 600px;
+      margin-top: 50px;
+}
+.form-testimonial{
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    padding: 100px;
+}
+.form-1{
+    display: flex;
 }
 
 /* testimonial end */
