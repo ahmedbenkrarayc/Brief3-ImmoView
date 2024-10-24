@@ -6,7 +6,7 @@
     font-family: "Poppins", serif;
 }
 
-.home-header{
+.home-testimonial{
     background-image: url('./../assets/home/headerbg.png');
     background-color: rgba(0, 0, 0, 0.265);
     background-blend-mode: multiply;
@@ -1045,23 +1045,23 @@
     margin-right: 60px;
     vertical-align: middle;
 }
-.item-testimonial .info{
+.item-testimonial .info-testimonail{
     display: flex;
     align-items: center;
 }
-.item-testimonial .name{
+.item-testimonial .name-testimonila{
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
     margin-left: -50px;
 }
-.item-testimonial .job{
+.item-testimonial .job-testimonila{
     color: #8D8D8D;
 }
 .item-testimonial p{
       margin-top: 20px;
 }
-.item-testimonial .rating{
+.item-testimonial .rating-testimonila{
     margin-left: 450px;
 }
 .galerie-testimonial{
@@ -1080,7 +1080,7 @@
     margin-left: 600px;
 }
 
-.galerie-testimonial .img99{
+.galerie-testimonial .img99-testimonil{
     width: 200px;
     height: 200px;
     margin-left: 70px;
@@ -1090,12 +1090,12 @@
     margin-left: 20px;
     margin-top: 10px;
 }
-.item-galerie .para2{
+.item-galerie .para2-testimonila{
     margin-left: 30px;
     margin-top: 10px;
 
 }
-.item-galerie .info2{
+.item-galerie .info2-testimonial{
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -1103,24 +1103,23 @@
 .Vector{
     margin-left: 350px;
 }
-.etoil{
-    margin-left: 50px;
-    margin-top: ;
-    margin-bottom: ;
-}
-.etoil1{
+
+.etoil1-testimonila{
     width: 20px;
 }
 .Vector1{
     margin-left: 350px;
 }
-.modif{
+.devant-testimonila{
     background-color: #5D5DFF;
     height: 300px;
-    padding: 40px;
-    margin-left: 70px;
-    margin-right: 70px;
+    width: 100%;
+    z-index: 3;
+
 }
+
+
+
 
 .titre-testimonial{
       margin-left: 600px;
@@ -1131,13 +1130,70 @@
     margin-top: 50px;
     display: flex;
     padding: 100px;
+
 }
-.form-1{
+.form1-testimonial {
+    padding: 50px 20px;
+    text-align: center;
+}
+.form1-testimonial form{
     display: flex;
-    width: 100px;
+    flex-direction: column;
+    padding: 10px;
 }
+.form-1testimonial{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.form-1testimonial div{
+    display: flex;
+    flex-direction: column;
+}
+.form-1testimonial div input{
+    width: 250px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    background-color: #F7F4FF;
+}
+.email-testimonila{
+    display: block;
+    flex-direction: row;
+}
+.email-testimonila input , textarea{
+    width: 550px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    background-color: #F7F4FF;
+}
+.email-testimonila textarea{
+         height: 100px;
+}
+.btn-testimonila{
+    width: 100px;
+    color: aliceblue;
+    background-color: black;
+    margin-left: 10px;
+    height: 35px;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn-testimonila:hover{
+    scale: 1.1;
+}
+@media (max-width: 768px) {
+    .item-testimonial {
+        flex-direction: column;
+        align-items: center;
+    }
 
-
+}
 
 
 
