@@ -197,8 +197,8 @@
 @media only screen and (max-width: 600px) {    
     .catalog-desc{
         width: 100%;
-        height: 30%;
-        background-color: wheat;
+        height: 100%;
+        /* background-color: wheat; */
         margin-bottom: 0px;
 
     
@@ -223,9 +223,18 @@
         align-items: start;
         width: 100%;
     }
+    .Catalog-desc-Contaner{
+        display: flex;
+        justify-content: space-between;
+    }
     .Catalog-Slides-bottom{
         /* flex-wrap: wrap; */
 
+    }
+    .Catalog-desc-infos{
+        flex-direction: column;
+        
+        width: 40%;
     }
     nav{
         display: none;
@@ -246,7 +255,17 @@
     }
     .Catalog-proprieties{
         display: flex;
+      
     } 
+    .Catalog-proprety-infos{
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+    .Catalog-prix{
+        text-align: end;
+    }
     .Catalog-slideb img{
         width: 120px;
     }
