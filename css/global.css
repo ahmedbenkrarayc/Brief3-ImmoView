@@ -99,7 +99,7 @@ margin-bottom: 10%;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
-.Detais_Adress div{
+.Detais_Adress div label{
     display: block;
 }
 
