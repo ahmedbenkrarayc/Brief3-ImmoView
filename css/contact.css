@@ -46,13 +46,41 @@
     margin-left: 3vw;
     margin-bottom: 2vw;
 }
-.contact_service{
+
+.contact_form{
+    border: 2px solid red;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.form2{
+    margin-top: 10vw;
+    margin-left: 5vw;
+}
+.mini_form1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mini_form2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mini_form3{
+    margin-top: 2vw;
+}
+
+
+
+
+.contact_service {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.contact_service img{
+.contact_our_service img{
     width: 25vw;
     height: 25vw;
 }
@@ -62,7 +90,10 @@
     display: flex;
     justify-content:space-around;
     
+    
 }
 .contact_our_service p{
     color: gray;
+    display: flex;
+    justify-content: center;
 }
