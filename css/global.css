@@ -94,15 +94,21 @@ margin-bottom: 10%;
     justify-content: center;
     align-items: center;
 }
-
-
+.Detais_Adress{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.Detais_Adress div{
+    display: block;
+}
 
 
 /* fin de la page  details  */
 /***************************************************************************/
 /****************************    Home Page    ******************************/
 /***************************************************************************/
-.header{
+.home-header{
     background-image: url('./../assets/home/headerbg.png');
     background-color: rgba(0, 0, 0, 0.265);
     background-blend-mode: multiply;
@@ -116,7 +122,7 @@ margin-bottom: 10%;
     object-fit: cover;
 }
 
-.header nav{
+.home-header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -124,16 +130,16 @@ margin-bottom: 10%;
     margin-inline: auto;
 }
 
-.header nav ul{
+.home-header nav ul{
     display: flex; 
     list-style: none;
 }
 
-.header nav li{
+.home-header nav li{
     margin-inline: 10px;
 }
 
-.header nav a{
+.home-header nav a{
     text-decoration: none;
     font-size: 13px; 
     font-weight: 400;
