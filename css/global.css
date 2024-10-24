@@ -19,7 +19,7 @@
 /***************************************************************************/
 /****************************    Home Page    ******************************/
 /***************************************************************************/
-.header{
+.home-header{
     background-image: url('./../assets/home/headerbg.png');
     background-color: rgba(0, 0, 0, 0.265);
     background-blend-mode: multiply;
@@ -33,7 +33,7 @@
     object-fit: cover;
 }
 
-.header nav{
+.home-header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,16 +41,16 @@
     margin-inline: auto;
 }
 
-.header nav ul{
+.home-header nav ul{
     display: flex; 
     list-style: none;
 }
 
-.header nav li{
+.home-header nav li{
     margin-inline: 10px;
 }
 
-.header nav a{
+.home-header nav a{
     text-decoration: none;
     font-size: 13px; 
     font-weight: 400;
