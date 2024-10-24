@@ -70,7 +70,192 @@
     padding: 8px 26px;
     font-size: 12px;
 }
+/* start catalog */
+.Navlinks{
+    color: white;
+}
+.Catalog-header{
+    background-image:url("../assets/catalog/background1.png"),url("../assets/catalog/bg.png") ;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    color: white;
+   
+    
+}
 
+
+.Navlinks,.Catalog-text-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.Catalog-text-header{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Navlinks{
+    width: 700px;
+}
+.Catalog-HeaderContent{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#Catalog-View-Details-Button{
+    width: 100px;
+}
+.Catalog-Container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Catalog-BarreDeFiltrage{
+    align-items: center;
+    width: 80%;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+.Catlog-IconsCon{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    height: 200px;
+}
+.CatalogIcon{
+    text-align: center;
+    width: 15%;
+    height: 100%;
+
+}
+.Catalog-ProprietiesFiltre{
+    width: 20%;
+}
+.Catalog-PropretiesContainer{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+.Catalog-proprety1{
+    background-image: url("../assets/catalog/p1.png");
+}
+.Catalog-proprety2{
+    background-image: url("../assets/catalog/p2.png");
+}
+.Catalog-proprety3{
+    background-image: url("../assets/catalog/p3.png");
+}
+.Catalog-proprety4{
+    background-image: url("../assets/catalog/p4.png");
+}
+.Catalog-proprety5{
+    background-image: url("../assets/catalog/p5.png");
+}
+.Catalog-proprety6{
+    background-image: url("../assets/catalog/p6.png");
+}
+.Catalog-Slides-bottom{
+    display: flex;
+}
+.CP{
+    background-size: cover;
+}
+.Catalog-proprieties{
+    width: 100%;
+}
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+@media only screen and (min-width: 600px) {   
+    .Catalog-justInmobile{
+        display: none;
+    }
+ }
+@media only screen and (max-width: 600px) {    
+
+    .Catalog-PropretiesContainer{
+        grid-template-columns: auto ;
+  gap: 6px;
+  /* padding: 6px; */
+    }
+    .Catalog-SearchInmobile{
+        width: 90%;
+    }
+    .Catalog-HideInMobile{
+        display: none;
+    }
+    .Catalog-BarreDeFiltrage-ForMobile{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: start;
+        width: 100%;
+    }
+    .Catalog-Slides-bottom{
+        /* flex-wrap: wrap; */
+
+    }
+    nav{
+        display: none;
+    }
+    .Catlog-IconsCon{
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+    }
+    .CatalogIcon{
+        width: 100%;
+    }
+    .Catalog-ProprietiesFiltre{
+        display: none;
+    }
+    .Catalog-justInmobile{
+        display: normal;
+    }
+    .Catalog-proprieties{
+        display: flex;
+    }
+}
+
+/* end catalog */
 /***************************************************************************/
 /****************************     End Home    ******************************/
 /***************************************************************************/
