@@ -129,18 +129,26 @@
             </div>
             <button>view more</button>
         </div>
-        <div>
+        <div class="Catalog-Propreties">
             <h2>Find Properties in These Cities</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div class="Catalog-Slides-bottom">
-                <div><img src="../assets/catalog/c1.png" alt=""></div>
-                <div><img src="../assets/catalog/c2.png" alt=""></div>
-                <div><img src="../assets/catalog/c3.png" alt=""></div>
-                <div><img src="../assets/catalog/c4.png" alt=""></div>
-                <div><img src="../assets/catalog/c5.png" alt=""></div>
+                <div  class="Catalog-slideb fade"><img src="../assets/catalog/c1.png" alt=""></div>
+                <div  class="Catalog-slideb fade"><img src="../assets/catalog/c2.png" alt=""></div>
+                <div  class="Catalog-slideb fade"><img src="../assets/catalog/c3.png" alt=""></div>
+                <div  class="Catalog-slideb fade"><img src="../assets/catalog/c4.png" alt=""></div>
+                <div  class="Catalog-slideb fade"><img src="../assets/catalog/c5.png" alt=""></div>
             </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
         </div>
     </div>
     
+    <script src="../js/slide.js"></script>
 </body>
 </html>
