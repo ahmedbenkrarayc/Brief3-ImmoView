@@ -103,7 +103,9 @@ margin-bottom: 10%;
     display: block;
 }
 .DetailsGrid{
-    
+display: grid;
+grid-template-columns: repeat(5,1fr);
+grid-area: ;
 }
 
 
