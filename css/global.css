@@ -2018,7 +2018,7 @@ grid-template-columns: repeat(5,1fr);
     background-repeat: no-repeat;
   
     width: 40vw;
-    height: 40vw;
+    min-height: 40vw;
 
     color: white;
     display: flex;
@@ -2026,9 +2026,10 @@ grid-template-columns: repeat(5,1fr);
     flex-direction: column;
     align-items: flex-start;
     margin-top: 5vw;
-    border: 2px solid red;
     margin-left: 5vw;
-
+    position: relative;
+    z-index: 50;
+    overflow: hidden;
 }
 .contact_second_step h2,p{
     margin-top: 2vw;
@@ -2040,17 +2041,25 @@ grid-template-columns: repeat(5,1fr);
 .contact_second_step_img{
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
     width: 90%;
     margin-left:2vw;
+    gap: 50px;
 }
-.contact_second_step_img img{
-    margin-right: 40px;
-  
+
+
+.contact_flex{
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
-.contact_second_step_img p{
-    margin-left: 50px;
+.contact_flex p{
+    padding: 0;
+  margin: 0;
 }
+.contact_flex img{
+   align-self: self-start;
+}
+
 .contact_media{
     display: flex;
     justify-content: space-around;
@@ -2058,13 +2067,34 @@ grid-template-columns: repeat(5,1fr);
     margin-left: 3vw;
     margin-bottom: 2vw;
 }
-
+.cercle{
+    border-radius: 50%;
+    position: absolute;
+}
+.c1{
+    width: 138px;
+    height: 138px;
+    background-color: rgb(72, 72, 72,0.5);
+    bottom: 10%;
+    right:20% ; 
+    z-index: 1;
+}
+.c2{
+    width: 269px;
+    height: 269px;
+    background-color: rgb(26, 26, 26);
+    bottom: -20%;
+    right: -10%;
+    z-index: -1;
+}
 .contact_form{
     border: 2px solid red;
     width: 95vw;
     display: flex;
     justify-content: center;
     box-shadow: 2px gray;
+    min-height: 647px;
+    position: relative;
 }
 .form2{
     margin-top: 10vw;
