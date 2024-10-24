@@ -9,6 +9,15 @@
 /***************************************************************************/
 /****************************    Home Page    ******************************/
 /***************************************************************************/
+.header{
+    background-image: url('./../assets/home/headerbg.png');
+    background-color: rgba(0, 0, 0, 0.185);
+    background-blend-mode: multiply;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .home-headerlogo{
     width: 110px;
     object-fit: cover;
