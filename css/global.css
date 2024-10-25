@@ -142,7 +142,7 @@
 
 .home-mission{
     display: flex;
-    width: 80%;
+    width: 85%;
     margin-inline: auto;
     margin-top: 80px;
 }
@@ -158,48 +158,52 @@
 }
 
 .home-line{
-    width: 80%;
+    width: 85%;
     height: 1px;
     background: #D9D9D9;
     margin-inline: auto;
     margin-top: 50px;
 }
 
+.home-filtersection{
+    width: 85%;
+    margin-inline: auto;
+    margin-top: 50px;
+}
 
+.home-filterbtncontainer button{
+    outline: none;
+    border: none;
+    padding: 8px 24px;
+    border: 1px solid #EBEBEB;
+    font-size: 12px;
+    color: #9E9E9E;
+    background: #F9FBFC;
+    font-weight: 300;
+    cursor: pointer;
+    display: block;
+    margin-right: 10px;
+}
 
+.home-filterbtncontainer button.home-active{
+    background: #6682AD;
+    color: white;
+}
 
+.home-viewmore{
+    background: black !important;
+    color: white !important;
+    margin-right: 0 !important;
+}
 
+.home-filterbtncontainer{
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.home-filterbtncontainer div{
+    display: flex;
+}
 
 
 
