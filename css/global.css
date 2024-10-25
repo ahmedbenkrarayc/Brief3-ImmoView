@@ -27,7 +27,15 @@
             display: block; 
         }
     
-    
+    footer{
+        margin-top: 94px;
+        height: 300px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        color: #8D8D8D;
+        flex-direction: column;
+    }
     .Catalog-desc-Upper h4 a{
     text-decoration: none;
     }
@@ -358,15 +366,6 @@
         width: 30%;
     }
     @media only screen and (min-width: 768px) {   
-        footer{
-            margin-top: 94px;
-            height: 300px;
-            background-color: black;
-            display: flex;
-            align-items: center;
-            color: #8D8D8D;
-            flex-direction: column;
-        }
         .Catalog-justInmobile{
             display: none;
         }
@@ -531,8 +530,6 @@
         } */
          footer{
             height: max-content;
-            margin-top: 94px;
-            background-color: black;
          }
         .footerContainer,.right{
             flex-direction: column;
@@ -567,6 +564,7 @@
         }
     }
     
+    /* end catalog */
    
 .global-contact-container{
     display: flex;
