@@ -1530,8 +1530,32 @@ height: 70%;
 .Details_main2{
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: wheat;
+    /* background-color: wheat; */
 }
+.Details_BienTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.Details-title-Icons{
+display: flex;
+align-items: center;
+}
+.Details_ComposationIcons{
+    flex-wrap: wrap;
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+.Details_ComposationIcons div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.Details_ComposationIcons div label{
+    font-size: small;
+}
+
 .Details_main3{
     grid-column: 1/2;
     grid-row: 2/3;
@@ -1559,18 +1583,29 @@ margin-bottom: 10%;
 .Details_main4{
     grid-column: 2/3;
     grid-row: 2/3;
-    background-color: rgb(165, 161, 151);
+}
+.Details_position{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
 }
 .Detais_Bien{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+.Details_Grid{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
 }
 .Detais_Adress{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    justify-content: center;
+    display: flex;
     gap: 20px;
+    width: 50%;
 }
 .Detais_Adress div label{
     display: block;

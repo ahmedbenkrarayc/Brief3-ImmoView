@@ -49,3 +49,49 @@
         display: flex;
     }
 }
+
+
+
+/* details */
+
+@media only screen and (max-width: 600px) {
+   
+    .Details_header{
+        width: 0;
+    }
+    .Details_container{
+        position: relative;
+        top: 0;
+        margin: 0;
+        padding: 0;
+        min-width: 100vw;
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .Details_main1>img{
+        background-color: aquamarine; 
+        width: 100vw;
+    }
+    .Details_main1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .Details_main2{
+        grid-column: 1/2;
+        grid-row: 2/4;
+        background-color: wheat;
+    }
+    .Details_main3{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Details_main4{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+}
