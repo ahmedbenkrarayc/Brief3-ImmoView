@@ -2209,6 +2209,7 @@ grid-template-columns: repeat(5,1fr);
 .contact_our_service{
     width: 90vw;
     margin-top: 5vw;
+    margin-bottom: 2rem;
     display: flex;
     justify-content:space-around;
     /* border: 2px solid red; */
