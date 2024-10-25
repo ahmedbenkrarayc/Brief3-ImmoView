@@ -58,102 +58,112 @@
     font-size: 12px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.home-headercontainer{
+    color: white;
+    text-align: center;
+}
+
+.home-headercontainer h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.home-headercontainer p{
+    max-width: 400px;
+    margin-inline: auto;
+    font-size: 14px;
+}
+
+.home-statistics >div{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-inline: auto;
+}
+
+.home-statistics{
+    background: black;
+    color: white;
+    padding: 32px 40px;
+    text-align: center;
+}
+
+.home-statistics p{
+    font-size: 12px;
+}
+
+.home-statistics h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.home-statistics span{
+    color: #89aecc;
+}
+
+.home-searchbox label{
+    color: black;
+    display: block;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.home-searchbox input{
+    display: block;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.home-searchbox{
+    display: flex;
+    width: fit-content;
+    background: white;
+    margin-inline: auto;
+    padding: 20px 50px;
+    margin-top: 20px;
+}
+
+.home-searchbtn{
+    background: black;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+    cursor: pointer;
+}
+
+.home-searchbox > div{
+    margin-inline: 10px;
+}
+
+.home-mission{
+    display: flex;
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 80px;
+}
+
+.home-mission h1{
+    width: 30%;
+}
+
+.home-mission p{
+    width: 70%;
+    color: #8C8C8C;
+    font-size: 14px;
+}
+
+.home-line{
+    width: 80%;
+    height: 1px;
+    background: #D9D9D9;
+    margin-inline: auto;
+    margin-top: 50px;
+}
 
 
 
@@ -2023,7 +2033,7 @@ grid-template-columns: repeat(5,1fr);
     margin-left: 5vw;
 
 }
-.contact_second_step h2,p{
+.contact_second_step h2, .contact_second_step p{
     margin-top: 2vw;
     margin-left: 2vw;
     border: 2px solid red;
