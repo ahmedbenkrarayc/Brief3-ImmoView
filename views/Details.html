@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     
     <title>Document</title>
 </head>
@@ -25,7 +26,7 @@
     <div class="Details_container">
         <div class="Details_main1">
             <img src="../assets/Details/home3.jpg" alt="">
-            <div class="Details_catalogue">
+            <div class="Details_catalogue Detais_hideINmobile">
                 <img src="../assets/Details/home5.jpg" alt="">
                 <img src="../assets/Details/home4.jpg" alt="">
                 <img src="../assets/Details/home4.jpg" alt="">
@@ -37,7 +38,9 @@
             <div>
                 <div class="Details_BienTitle">
                     <h3>Marrakech I Palmeraie </h3>
-                    <input type="button" value="Share">
+                    <button class="btn_share-details">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>Share
+                    </button>                    
                 </div>
                 <div class="Details-title-Icons">
                     <img src="../assets/Details/Home.png" alt="">
@@ -45,9 +48,9 @@
                     <img src="../assets/Details/Star 1.png" alt="">
                     <label for="">4.5 Review</label>  
                     <img src="../assets/Details/icons8-location-50.png" alt="">
-                    <p>Al Merkadh (MBR City),Dubai</p>  
+                    <label>Al Merkadh (MBR City),Dubai</label>  
                 </div>
-                <div>
+                <div class="Details_overview">
                     <label for="">Oberview</label>
                 </div>
                 <div class="Details_ComposationIcons">
@@ -76,12 +79,14 @@
 
                 <div>
                     <h3>Description</h3>
-                    <p>Au sein d'un prestigieux domaine sécurisé, ce palais d'architecture
+                    <p class="Details_description">Au sein d'un prestigieux domaine sécurisé, ce palais d'architecture
                         contemporaine marocaine se développe sur ± 2.900 m² de plain Passé un hall d'entrée,
                          on accède aux pièces de vie, dont plusieurs
                         salons avec des ambiances variées, un coin télé, une bibliothèque 
                        et une spacieuse salle à manger donnant sur une vaste terrasse agrémentée 
-                       d'une cheminée. </p>
+                       d'une cheminée. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, 
+                       perspiciatis eaque.
+                    </p>
                 </div>
 
           
@@ -96,40 +101,41 @@
                 <label for="username">e-mail</label>
                 <input type="text" placeholder="email@mail.com">
                 <label for="username">message</label>
-                <input type="text" placeholder="Message ">
-                <input type="button" value="Soumettre" >
+                <input type="text" id="text_de_message" placeholder="Message ">
+                <input type="button" id="button_de_soumettre" value="Soumettre" >
         </form>
         </div>
         <form class="Details_main4">
-            <div class="Detais_Bien">
-                <div>
-                    <label>Adress</label>
-                </div>
-                <div class="Details_position">
-                    <label><b>Qauntry :</b>maroc</label>
-                    <label><b>state :</b>kech-safi</label>
-                    <label><b>City :</b>safi</label>
-                </div>
-               
-                <div class="Details_Grid">
-                   <label>Details</label>
-                   <div class="Detais_Adress">
+            <div>
+                <section class="Detais_Bien">
                     <div>
-                        <label>Property Id :5545</label>
-                        <label>Price  :5545</label>
-                        <label>Property size :5545</label>
-                        <label>Land Area  :5545 m</label>
+                        <label>Adress</label>
                     </div>
-                    <div>
-                        <label>bathrooms  :5</label>
-                        <label>Year Built  :5</label>
-                        <label>Bedromms  :3</label>
-                        <label>Property Type  :Residance</label>
+                    <div class="Details_position">
+                        <label><b>Qauntry :</b>maroc</label>
+                        <label><b>state :</b>kech-safi</label>
+                        <label><b>City :</b>safi</label>
                     </div>
-                  
-                </div>
-                </div>
-                
+                   
+                    <div class="Details_Grid">
+                       <label>Details</label>
+                       <div class="Detais_Adress">
+                        <div>
+                            <label>Property Id :5545</label>
+                            <label>Price  :5545</label>
+                            <label>Property size :5545</label>
+                            <label>Land Area  :5545 m</label>
+                        </div>
+                        <div>
+                            <label>bathrooms  :5</label>
+                            <label>Year Built  :5</label>
+                            <label>Bedromms  :3</label>
+                            <label>Property Type  :Residance</label>
+                        </div>
+                      
+                    </div>
+                    </div>
+                </section>
             </div>
         </form>
     </div>
