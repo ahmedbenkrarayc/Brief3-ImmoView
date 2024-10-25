@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
     <title>Témoignages</title>
     <!-- font family poppins -->
@@ -14,15 +15,27 @@
                    
      <header class="home-testimonial">
         <nav class="home-nav-white topnav">
-            <img class="home-headerlogo" src="./../assets/home/logo.png" alt="logo">
+            <img class="home-headerlogo" src="../assets/home/logo.png" alt="logo">
 
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./catalog.html">Catalog</a></li>
-                <li><a href="./testimonial.html">Testimonial</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li class="home-register"><a href="./register">Register</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="home-register"><a href="register">Register</a></li>
             </ul>
+
+            <div id="mobilemenu" class="homesmallnav">
+                <i class="fa-solid fa-x home-close"></i>
+                <div>
+                    <a href="index.html">Home</a>
+                    <a href="catalog.html">Catalog</a>
+                    <a href="testimonial.html">Testimonial</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars home-burger"></i>
         </nav>
      </header>
 
@@ -247,5 +260,83 @@
                     </div>
                    </div>
              </section>
+             <footer>
+                <div class="footerContainer">
+                    <div class="left">
+                        <p class="Logo">
+                            ImmoView
+                        </p>
+                        <p class="LogoDescription">
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        </p>
+                    </div>
+                    <div class="right">
+                        <div class="linksContainer">
+                            <p class="title">Company</p>
+                            <p>
+                                <a href="">About Us</a>
+                            </p>
+                            <p>
+                               <a href=""> Blog</a>
+                            </p>
+                            <p>
+                               <a href=""> FAQs</a>
+                            </p>
+                            <p>
+                               <a href=""> Press</a>
+                            </p>
+                        </div>
+                        
+                        <div class="linksContainer">
+                            <p class="title">Support</p>
+                            <p>
+                                <a href="">Help</a>
+                            </p>
+                            <p>
+                               <a href=""> Contact</a>
+                            </p>
+                            <p>
+                               <a href=""> Chat</a>
+                            </p>
+                            <p>
+                               <a href=""> Terms</a>
+                            </p>
+                        </div>
+                        <div class="linksContainer">
+                            <p class="title">Products</p>
+                            <p>
+                                <a href=""> Features</a>
+                            </p>
+                            <p>
+                               <a href=""> Pricing</a>
+                            </p>
+                            <p>
+                               <a href=""> Integrations</a>
+                            </p>
+                            <p>
+                               <a href=""> Demo</a>
+                            </p>
+                        </div>
+                        <div class="linksContainer">
+                            <p class="title">Social</p>
+                            <p>
+                                <a href="">LinkedIn</a>
+                            </p>
+                            <p>
+                               <a href=""> Facebook</a>
+                            </p>
+                            <p>
+                               <a href=""> Twitter</a>
+                            </p>
+                            <p>
+                               <a href=""> Intagram</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="Copyright">© All Rights are reserved</p>
+            </footer>
+            <script src="../js/burgermenu.js"></script>
+            <script src="https://kit.fontawesome.com/3183b49327.js" crossorigin="anonymous"></script>
 </body>
 </html>
