@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="Details_header">
+    <!-- <header class="Details_header">
         <nav class="home-nav-dark topnav">
             <img class="home-headerlogo" src="./../assets/home/logo.png" alt="logo">
 
@@ -22,30 +22,34 @@
                 <li class="home-register"><a href="./register">Register</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     <div class="Details_container">
         <div class="Details_main1">
-            <img src="../assets/Details/home3.jpg" alt="">
+            <img id="grand_image1" src="../assets/Details/home3.jpg" alt=" a home of peoble">
             <div class="Details_catalogue Detais_hideINmobile">
-                <img src="../assets/Details/home5.jpg" alt="">
-                <img src="../assets/Details/home4.jpg" alt="">
-                <img src="../assets/Details/home4.jpg" alt="">
-                <img src="../assets/Details/home4.jpg" alt="">
-                <img src="../assets/Details/home1.jpg" alt="">
+                <img id="cata_image1" src="../assets/Details/cataloque1.jpg" alt="a home of peoble"  onclick="changerImage('../assets/Details/cataloque1.jpg')">
+                <img id="cata_image2" src="../assets/Details/cataloque2.jpg" alt="a home of peoble"  onclick="changerImage('../assets/Details/cataloque2.jpg')">
+                <img id="cata_image3" src="../assets/Details/cataloque3.jpg" alt="a home of peoble"  onclick="changerImage('../assets/Details/cataloque3.jpg')">
+                <img id="cata_image4" src="../assets/Details/cataloque4.jpg" alt="a home of peoble"  onclick="changerImage('../assets/Details/cataloque4.jpg')">
+                <img id="cata_image5" src="../assets/Details/cataloque6.jpg" alt="a home of peoble"  onclick="changerImage('../assets/Details/cataloque5.jpg')">
             </div>
         </div>
         <section class="Details_main2">
             <div>
                 <div class="Details_BienTitle">
                     <h3>Marrakech I Palmeraie </h3>
-                    <button class="btn_share-details"> Share</button>                    
+                    <button class="btn_share-details">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>Share
+                    </button>                    
+                    <!-- <button class="btn_share-details">share</button> -->
                 </div>
+
                 <div class="Details-title-Icons">
-                    <img src="../assets/Details/Home.png" alt="">
+                    <img src="../assets/Details/Home.png" alt="a home of peoble">
                     <label for="">Residence</label>
-                    <img src="../assets/Details/Star 1.png" alt="">
+                    <img src="../assets/Details/Star 1.png" alt="a home of peoble">
                     <label for="">4.5 Review</label>  
-                    <img src="../assets/Details/icons8-location-50.png" alt="">
+                    <img src="../assets/Details/icons8-location-50.png" alt="a home of peoble">
                     <label>Al Merkadh (MBR City),Dubai</label>  
                 </div>
                 <div class="Details_overview">
@@ -53,24 +57,24 @@
                 </div>
                 <div class="Details_ComposationIcons">
                     <div>
-                        <img src="../assets/Details/bedroom.png" alt="">
+                        <img src="../assets/Details/bedroom.png" alt="a home of peoble">
                         <label for=""> 3 BedRooms</label>
                     </div>
                     <div>
-                        <img src="../assets/Details/bathroom.png" alt="">
+                        <img src="../assets/Details/bathroom.png" alt="a home of peoble">
                         <label for=""> 3 BathRooms</label>
                     </div>
                     <div>
-                        <img src="../assets/Details/car.png" alt="">
+                        <img src="../assets/Details/car.png" alt="a home of peoble">
                         <label for=""> 3 Car Garages</label>
                     </div>
                   
                     <div>
-                        <img src="../assets/Details/2house.png" alt="">
+                        <img src="../assets/Details/2house.png" alt="a home of peoble">
                         <label for=""> 100 yards</label>
                     </div>
                     <div>
-                        <img src="../assets/Details/chaise (2).png" alt="">
+                        <img src="../assets/Details/chaise (2).png" alt="a home of peoble">
                         <label for=""> All fourniture</label>
                     </div>
                 </div>
@@ -137,5 +141,6 @@
             </div>
         </form>
     </div>
+    <script src="../js/slide.js"></script>
 </body>
 </html>

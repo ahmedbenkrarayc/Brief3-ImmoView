@@ -45,3 +45,12 @@ function showSlides(n) {
   
   console.log("Current slide index:", slideIndex);
 }
+
+
+
+// details java script code 
+
+let image=Document.getElementsById("grand_image1");
+function changerImage(nouvelleImage) {
+  document.getElementById('grand_image1').src = nouvelleImage;
+}
