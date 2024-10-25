@@ -378,7 +378,9 @@ justify-self: center;
         color: white;
         width: 50%;
         height: 100%;
+        z-index: 100;
         padding: 40px;
+        overflow: hidden;
     }
 
     .home-close{
