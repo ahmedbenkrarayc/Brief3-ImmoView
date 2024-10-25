@@ -2,88 +2,217 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Put your description here.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    
+    <header class="header">
+        <nav class="home-nav-dark topnav">
+            <img class="home-headerlogo" src="./../assets/home/logo.png" alt="logo">
 
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./catalog.html">Catalog</a></li>
+                <li><a href="./testimonial.html">Testimonial</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li class="home-register"><a href="./register">Register</a></li>
+            </ul>
+        </nav>
     </header>
+   <div class="global-contact-container">
+
+   
     <div class="contact_first_line">
         <h1>Contact Us</h1>
        <p>Any question or remarks? Just write us a message!</p>
     </div>
+    <div class="contact_form" data-aos="zoom-in-up" data-aos-duration="7000">
+    <form class="form1">
 <div class="contact_second_step">
-    <div>
+    <div class="contact_padding">
         <h2>Contact Information</h2>
         <p>Say something to start a live chat!</p>
         
     </div>
     <div class="contact_second_step_img">
-        <p><img src="/assets/contact_img/phone_in_talk_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png">+212 808 878867</p>
-        <p><img src="/assets/contact_img/mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png">ImmoView@gmail.com</p>
-        <p><img src="/assets/contact_img/location_on_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png">Naouras Residence, Boulevard Ibn <br> Abdellah, new town, Safi, Morocco</p>
+        <div class="contact_flex">
+            <img src="../assets/contact_img/phone_in_talk_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" width="24px" height="24px" alt="telephone">
+            <p>+212 808 878867</p>
+        </div>
+        <div class="contact_flex">
+            <img src="../assets/contact_img/mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" width="24px" height="24px" alt="email">
+            <p>ImmoView@gmail.com</p></div>
+        <div class="contact_flex">
+            <img src="../assets/contact_img/location_on_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"  width="24px" height="24px" alt="adress">
+            <p>Naouras Residence, Boulevard Ibn Abdellah,<br> new town, Safi, Morocco</p></div>
     </div>
-    <div>
-      <h2>Our Social Media :</h2>
-      <div Class="contact_media">
-        <img src="/assets/contact_img/twitter.png">
-        <img src="/assets/contact_img/instagram.png">
-        <img src="/assets/contact_img/discord.png">
+    
+          <div Class="contact_media">
+      <h2 style="margin-left: 1rem;">Our Social Media :</h2>
+  <div class="contact_media_logo">  
+       <a href="https://x.com/"> <img src="../assets/contact_img/twitter.png" alt="twitter"></a>
+        <a href="https://www.instagram.com/"><img src="../assets/contact_img/instagram.png" alt="instagram"></a>
+       <a href="https://discord.com/"> <img src="../assets/contact_img/discord.png" alt="discord"></a>
       </div>
     </div>
+    <div class="cercle c1"></div>
+    <div class="cercle c2"></div>
    </div> 
-    <div>
-        <label for="fname">First Name</label><br>
-        <input type="text"><br>
-        <label for="fname">Last Name</label><br>
-        <input type="text"><br>
+</form>
+<form class="form2">
+    <div class="mini_form1">
+       <div> <label for="fname">First Name</label><br><br>
+        <input type="text"  id="fname"></div>
 
-        <label for="email">Email</label><br>
-        <input type="email"><br>
-        <label for="phone">Phone Number</label><br>
-        <input type="tel"><br>
-
-        <label for="select">Select Subject?</label><br>
-        <input type="checkbox">General Inquiry 
-        <input type="checkbox">Make an appointment 
-        <input type="checkbox">Customer complaint <br>
-          
-        <label for="message">Message</label><br>
-        <input type="text"><br>
-
+        <div><label for="fname" >Last Name</label><br><br>
+        <input type="text" id="fname"></div>
+    </div><br><br>
+    <div class="mini_form2">
+       <div> <label for="email" >Email</label><br><br>
+        <input type="email" id="email"></div>
+      <div> <label for="phone" >Phone Number</label><br><br>
+        <input type="tel" id="phone" ></div>
+    </div>
+    <div class="mini_form3">
+       <label for="select">Select Subject?</label><br><br>
+    <div class="contact_radio">
+    <div class="radio_edit"> 
+        <input type="radio" name="subject" id="general-inquiry">
+        <label for="general-inquiry">General Inquiry</label>
+    </div>
+    <div class="radio_edit"> 
+        <input type="radio" name="subject" id="make-appointment">
+        <label for="make-appointment">Make an appointment</label>
+    </div>  
+    <div class="radio_edit">
+        <input type="radio" name="subject" id="customer-complaint">
+        <label for="customer-complaint">Customer complaint</label>
+    </div> 
+</div>
+        <div class="contact_message"><label for="message">Message</label><br>
+        <input type="text" placeholder="Write your message.."></div><br>
+    </div>
+    <div class="mini_form3_button">
         <input type="button" value="Send Message">
         
     </div>
+</form>
+</div>
+</div>
     <!-- Maps  -->
-    <div>
-        
+    <div class="maps" data-aos="flip-left" data-aos-duration="7000">
+        <h2> This is our location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41666.954769408076!2d-9.163112640380849!3d32.292919084308025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac21002d578a85%3A0xde89b38e6d302490!2sYoucode!5e1!3m2!1sar!2sma!4v1729785413254!5m2!1sar!2sma" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Location</iframe>
 
     </div>
 
 <!-- Our Services -->
 
- <div class="contact_service">
-        <h2>Our Services</h2>
+ <div class="contact_service" data-aos="zoom-in-up" data-aos-duration="4000">
+        <h1>Our Services</h1>
         <p>We are here for your comfort first and your satisfaction second.</p>
     </div>
     <div class="contact_our_service">
-        <div> 
-             <img src="/assets/contact_img/sales.jpg">
+        <div data-aos="fade-left" data-aos-duration="7000"> 
+             <img src="../assets/contact_img/sales.jpg" alt="service1">
             <p>House Sale</p>
         </div>
-        <div> 
-             <img src="/assets/contact_img/Rent.jpg">
+        <div  data-aos="flip-left" data-aos-duration="7000"> 
+             <img src="../assets/contact_img/Rent.jpg" alt="service2">
             <p>House Rental</p>
         </div>
-        <div>
-             <img src="/assets/contact_img/Buying.jpg">
+        <div data-aos="fade-right" data-aos-duration="7000">
+             <img src="../assets/contact_img/Buying.jpg" alt="service3">
             <p>Buying Homes</p>
         </div>
     </div>
+    
  
-
+    <footer>
+        <div class="footerContainer">
+            <div class="left">
+                <p class="Logo">
+                    ImmoView
+                </p>
+                <p class="LogoDescription">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                </p>
+            </div>
+            <div class="right">
+                <div class="linksContainer">
+                    <p class="title">Company</p>
+                    <p>
+                        <a href="">About Us</a>
+                    </p>
+                    <p>
+                       <a href=""> Blog</a>
+                    </p>
+                    <p>
+                       <a href=""> FAQs</a>
+                    </p>
+                    <p>
+                       <a href=""> Press</a>
+                    </p>
+                </div>
+                
+                <div class="linksContainer">
+                    <p class="title">Support</p>
+                    <p>
+                        <a href="">Help</a>
+                    </p>
+                    <p>
+                       <a href=""> Contact</a>
+                    </p>
+                    <p>
+                       <a href=""> Chat</a>
+                    </p>
+                    <p>
+                       <a href=""> Terms</a>
+                    </p>
+                </div>
+                <div class="linksContainer">
+                    <p class="title">Products</p>
+                    <p>
+                        <a href=""> Features</a>
+                    </p>
+                    <p>
+                       <a href=""> Pricing</a>
+                    </p>
+                    <p>
+                       <a href=""> Integrations</a>
+                    </p>
+                    <p>
+                       <a href=""> Demo</a>
+                    </p>
+                </div>
+                <div class="linksContainer">
+                    <p class="title">Social</p>
+                    <p>
+                        <a href="">LinkedIn</a>
+                    </p>
+                    <p>
+                       <a href=""> Facebook</a>
+                    </p>
+                    <p>
+                       <a href=""> Twitter</a>
+                    </p>
+                    <p>
+                       <a href=""> Intagram</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="Copyright">Â© All Rights are reserved</p>
+    </footer>
+ 
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+    AOS.init();
+  </script>
 </body>
 </html>

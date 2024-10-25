@@ -66,3 +66,20 @@ function ShowAll(){
     propreties[i].style.display = "block";  
   }
 }
+document.getElementById('button_de_soumettre').addEventListener('click', function() {
+  const username = document.getElementById('username').value;
+  const phone = document.getElementById('phone').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('text_de_message').value;
+
+  if (!username || !phone || !email || !message) {
+      alert('Veuillez remplir tous les champs.');
+      return;
+  }
+ alert("soumettre avec succes")
+});
+
+let image=Document.getElementsById("grand_image1");
+function changerImage(nouvelleImage) {
+  document.getElementById('grand_image1').src = nouvelleImage;
+}
