@@ -61,6 +61,3 @@ Pour exécuter ce projet localement, suivez ces étapes :
 1. **Clonez le dépôt** :
    ```bash
    git clone https://github.com/ahmedbenkrarayc/Brief3-ImmoView.git
-1. **vistez le website** :
-   ```bash
-https://ahmedbenkrarayc.github.io/Brief3-ImmoView/index.html
