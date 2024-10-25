@@ -277,12 +277,99 @@ justify-self: center;
 
 /* staaaaaaaaaart home */
 
+ 
+@media only screen and (min-width: 600px) {   
+    .Catalog-justInmobile{
+        display: none;
+    }
+ }
+@media only screen and (max-width: 600px) {    
+
+    .Catalog-PropretiesContainer{
+        grid-template-columns: auto ;
+  gap: 6px;
+  /* padding: 6px; */
+    }
+    .Catalog-SearchInmobile{
+        width: 90%;
+    }
+    .Catalog-HideInMobile{
+        display: none;
+    }
+    .Catalog-BarreDeFiltrage-ForMobile{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: start;
+        width: 100%;
+    }
+    .Catalog-Slides-bottom{
+        /* flex-wrap: wrap; */
+
+    }
+    nav{
+        display: none;
+    }
+    .Catlog-IconsCon{
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+    }
+    .CatalogIcon{
+        width: 100%;
+    }
+    .Catalog-ProprietiesFiltre{
+        display: none;
+    }
+    .Catalog-justInmobile{
+        display: normal;
+    }
+    .Catalog-proprieties{
+        display: flex;
+    }
+}
+
+
+/* staaaaaaaaaart home */
+
 @media only screen and (max-width: 767px){
+    .home-headertitle{
+        font-size: 24px !important;
+    }
+
+    .home-headerdesc{
+        font-size: 14px !important;
+    }
+
+    .home-searchbox{
+        display: block !important;
+        width: 60% !important;
+        background: white;
+        margin-inline: auto;
+        padding: 20px 30px;
+        margin-top: 20px;
+    }
+
+    .home-searchbox > div > input{
+        width: 100%;
+    }
+
+    .home-searchbox > div{
+        margin-bottom: 20px;
+    }
+
+    .home-searchbox > div:last-child{
+        margin-bottom: 0;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+    }
+
     .topnav ul{
         display: none;
-    } 
+    }
 
-     .homesmallnav{
+    .homesmallnav{
         position: fixed;
         display: block;
         top: 0;
@@ -292,7 +379,6 @@ justify-self: center;
         width: 50%;
         height: 100%;
         padding: 40px;
-        
     }
 
     .home-close{
@@ -320,4 +406,153 @@ justify-self: center;
         margin-block: 20px;
         font-weight: 400;
     }
+
+    .home-statistics{
+        padding: 24px 20px;
+        text-align: center;
+    }
+
+    .home-statistics p{
+        font-size: 11px;
+    }
+    
+    .home-statistics h1{
+        font-size: 20px;
+    }
+
+    .home-statistics >div{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .home-mission{
+        width: 90%;
+        display: block;
+    }
+
+    .home-mission h1{
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .home-mission p{
+        margin-top: 10px;
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    .home-line{
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .home-filterbtncontainer{
+        width: 90%;
+    }
+
+    .home-filterbtncontainer button{
+        padding: 8px 24px;
+        font-size: 10px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .home-filterbtncontainer div{
+        flex-wrap: wrap;
+    }
+
+    .home-viewmore{
+        height: fit-content;
+    }
+
+    .home-filtercard{
+        width: 200px;
+        min-width: 200px;
+        margin-right: 10px;
+    }
+    
+    .home-filtercard > img{
+        width: 100%;
+        height: 220px;
+    }
+
+    .home-filtercard a{
+        font-size: 12px;
+    }
+    
+    .home-filtercard span{
+        font-size: 12px;
+    }
+
+    .home-filtercard p{
+        font-size: 11px;
+    }
+
+    .home-filtercard div img{
+        width: 10px;
+    }
+
+    .home-services{
+        padding-top: 220px;
+    }
+
+    .home-services > h1{
+        font-size: 20px;
+    }
+
+    .home-services-container{
+        width: 90%;
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+        row-gap: 20px;
+    }
+
+    .home-services-container h1{
+        font-size: 16px;
+    }
+    
+    .home-services-container p{
+        font-size: 12px;
+    }
+
+    .home-faq{
+        margin-top: 80px;
+        width: 90%;
+    }
+
+    .home-faq > h1{
+        font-size: 20px;
+    }
+
+    .home-faq > div{
+        display: block;
+    }
+
+    .home-faq-left{
+        width: 100%;
+    }
+    
+    .home-faq-right{
+        width: 100%;
+    }
+
+    .home-faq-left p:first-child{
+        font-size: 12px;
+    }
+    
+    .home-faq-left p:last-child{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .faq-title{
+        font-size: 16px;
+    }
+    
+    .faq-content{
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+    
 }

@@ -10,66 +10,71 @@
 <body>
     <header class="home-header">
         <nav class="home-nav-white topnav">
-            <img class="home-headerlogo" src="./assets/home/logo.png" alt="logo">
+            <img class="home-headerlogo" src="./../assets/home/logo.png" alt="logo">
 
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./views/catalog.html">Catalog</a></li>
-                <li><a href="./views/testimonial.html">Testimonial</a></li>
-                <li><a href="./views/contact.html">Contact</a></li>
-                <li class="home-register"><a href="register">Register</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./catalog.html">Catalog</a></li>
+                <li><a href="./testimonial.html">Testimonial</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li class="home-register"><a href="./register">Register</a></li>
             </ul>
 
             <div id="mobilemenu" class="homesmallnav">
                 <i class="fa-solid fa-x home-close"></i>
                 <div>
-                    <a href="index.html">Home</a>
-                    <a href="./views/catalog.html">Catalog</a>
-                    <a href="./views/testimonial.html">Testimonial</a>
-                    <a href="./views/contact.html">Contact</a>
-                    <a href="login.html">Login</a>
+                    <a href="./index.html">Home</a>
+                    <a href="./catalog.html">Catalog</a>
+                    <a href="./testimonial.html">Testimonial</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="./login.html">Login</a>
                 </div>
             </div>
             <i class="fa-solid fa-bars home-burger"></i>
         </nav>
         <div class="home-headercontainer">
-            <h1 class="home-headertitle">Find your dream Home</h1>
-            <p class="home-headerdesc">we understand the fact that modern people strive for maximum comfort.</p>
+            <h1 data-aos="fade-down" class="home-headertitle">Find your dream Home</h1>
+            <p data-aos="fade-down" class="home-headerdesc">we understand the fact that modern people strive for maximum comfort.</p>
             <section class="home-searchbox">
-                <div>
+                <div data-aos="fade-right">
                     <label for="keyword">Keyword</label>
                     <input type="text" placeholder="Enter a keyword" id="keyword">
                 </div>
-                <div>
+                <div data-aos="fade-right">
                     <label for="location">Location</label>
                     <input type="text" placeholder="Enter your location" id="location">
                 </div>
-                <div>
+                <div data-aos="fade-right">
                     <label for="type">Type</label>
                     <input type="text" placeholder="Enter your type" id="type">
                 </div>
-                <div class="home-searchbtn">
+                <div class="home-searchbtn" data-aos="fade-right">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </section>
+        </div>
+
+        <div class="home-carousel">
+            <div onclick="goNext()" class="arrow goto-left"><i class="fa-solid fa-angle-left"></i></div>
+            <div onclick="goPrevious()" class="arrow goto-right"><i class="fa-solid fa-angle-right"></i></div>
         </div>
     </header>
 
     <section class="home-statistics">
         <div>
-            <div class="home-item">
+            <div class="home-item" data-aos="fade-down">
                 <h1>128<span>K</span></h1>
                 <p>Renters</p>
             </div>
-            <div class="home-item">
+            <div class="home-item" data-aos="fade-down">
                 <h1>300<span>+</span></h1>
                 <p>Specialists</p>
             </div>
-            <div class="home-item">
+            <div class="home-item" data-aos="fade-down">
                 <h1>78<span>%</span></h1>
                 <p>Yearly Growth</p>
             </div>
-            <div class="home-item">
+            <div class="home-item" data-aos="fade-down">
                 <h1>10<span>K+</span></h1>
                 <p>Properties</p>
             </div>
@@ -77,14 +82,14 @@
     </section>
 
     <section class="home-mission">
-        <h1>Our mission</h1>
-        <p>At Immoview, our mission is to make finding your dream property a seamless and enjoyable experience. We are committed to providing accurate, up-to-date listings and personalized support, ensuring that you have all the information and guidance you need to make confident real estate decisions. Whether you’re buying, selling, or renting, our goal is to connect you with the perfect property that meets your needs and aspirations.</p>
+        <h1 data-aos="fade-down">Our mission</h1>
+        <p data-aos="fade-down">At Immoview, our mission is to make finding your dream property a seamless and enjoyable experience. We are committed to providing accurate, up-to-date listings and personalized support, ensuring that you have all the information and guidance you need to make confident real estate decisions. Whether you’re buying, selling, or renting, our goal is to connect you with the perfect property that meets your needs and aspirations.</p>
     </section>
 
     <div class="home-line"></div>
     
     <section class="home-filtersection">
-        <div class="home-filterbtncontainer">
+        <div class="home-filterbtncontainer" data-aos="fade-right">
             <div>
                 <button class="home-active">Residential</button>
                 <button>Commercial</button>
@@ -94,78 +99,121 @@
         </div>
 
         <section class="home-filter-cards-container">
-            <div class="home-filtercard">
-                <img src="./assets/home/appartment1.png" alt="">
+            <div class="home-filtercard" data-aos="fade-down">
+                <img src="./../assets/home/appartment1.png" alt="">
                 <div class="home-card-detailscontainer">
                     <div>
                         <h1><a href="#">The Queen Inside</a></h1>
                         <span>$7,20,000</span>
                     </div>
-                    <p><img src="./assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    <p><img src="./../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
                     <div class="home-carddetails">
-                        <p><img src="./assets/home/bedicon.png" alt="location icon">4 Beds</p>
-                        <p><img src="./assets/home/bathicon.png" alt="location icon">2 Baths</p>
+                        <p><img src="./../assets/home/bedicon.png" alt="location icon">4 Beds</p>
+                        <p><img src="./../assets/home/bathicon.png" alt="location icon">2 Baths</p>
                     </div>
                 </div>
             </div>
-            <div class="home-filtercard">
-                <img src="./assets/home/appartment1.png" alt="">
+            <div class="home-filtercard" data-aos="fade-down">
+                <img src="./../assets/home/appartment1.png" alt="">
                 <div class="home-card-detailscontainer">
                     <div>
                         <h1><a href="#">The Queen Inside</a></h1>
                         <span>$7,20,000</span>
                     </div>
-                    <p><img src="./assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    <p><img src="./../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
                     <div class="home-carddetails">
-                        <p><img src="./assets/home/bedicon.png" alt="location icon">4 Beds</p>
-                        <p><img src="./assets/home/bathicon.png" alt="location icon">2 Baths</p>
+                        <p><img src="./../assets/home/bedicon.png" alt="location icon">4 Beds</p>
+                        <p><img src="./../assets/home/bathicon.png" alt="location icon">2 Baths</p>
                     </div>
                 </div>
             </div>
-            <div class="home-filtercard">
-                <img src="./assets/home/appartment1.png" alt="">
+            <div class="home-filtercard" data-aos="fade-down">
+                <img src="./../assets/home/appartment1.png" alt="">
                 <div class="home-card-detailscontainer">
                     <div>
                         <h1><a href="#">The Queen Inside</a></h1>
                         <span>$7,20,000</span>
                     </div>
-                    <p><img src="./assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    <p><img src="./../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
                     <div class="home-carddetails">
-                        <p><img src="./assets/home/bedicon.png" alt="location icon">4 Beds</p>
-                        <p><img src="./assets/home/bathicon.png" alt="location icon">2 Baths</p>
+                        <p><img src="./../assets/home/bedicon.png" alt="location icon">4 Beds</p>
+                        <p><img src="./../assets/home/bathicon.png" alt="location icon">2 Baths</p>
                     </div>
                 </div>
             </div>
-            <div class="home-filtercard">
-                <img src="./assets/home/appartment1.png" alt="">
+            <div class="home-filtercard" data-aos="fade-down">
+                <img src="./../assets/home/appartment1.png" alt="">
                 <div class="home-card-detailscontainer">
                     <div>
                         <h1><a href="#">The Queen Inside</a></h1>
                         <span>$7,20,000</span>
                     </div>
-                    <p><img src="./assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    <p><img src="./../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
                     <div class="home-carddetails">
-                        <p><img src="./assets/home/bedicon.png" alt="location icon">4 Beds</p>
-                        <p><img src="./assets/home/bathicon.png" alt="location icon">2 Baths</p>
+                        <p><img src="./../assets/home/bedicon.png" alt="location icon">4 Beds</p>
+                        <p><img src="./../assets/home/bathicon.png" alt="location icon">2 Baths</p>
                     </div>
                 </div>
             </div>
-            <div class="home-filtercard">
-                <img src="./assets/home/appartment1.png" alt="">
+            <div class="home-filtercard" data-aos="fade-down">
+                <img src="./../assets/home/appartment1.png" alt="">
                 <div class="home-card-detailscontainer">
                     <div>
                         <h1><a href="#">The Queen Inside</a></h1>
                         <span>$7,20,000</span>
                     </div>
-                    <p><img src="./assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    <p><img src="./../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
                     <div class="home-carddetails">
-                        <p><img src="./assets/home/bedicon.png" alt="location icon">4 Beds</p>
-                        <p><img src="./assets/home/bathicon.png" alt="location icon">2 Baths</p>
+                        <p><img src="./../assets/home/bedicon.png" alt="location icon">4 Beds</p>
+                        <p><img src="./../assets/home/bathicon.png" alt="location icon">2 Baths</p>
                     </div>
                 </div>
             </div>
             
         </section>
+
+        <section class="home-services">
+            <h1 data-aos="fade-down">Our Servies</h1>
+            <div class="home-services-container">
+                <div data-aos="fade-down">
+                    <h1>Listings</h1>
+                    <p>Easily create, update, and manage property listings with detailed descriptions, photos, and pricing information to attract potential buyers or renters.</p>
+                </div>
+                <div data-aos="fade-down">
+                    <h1>Search</h1>
+                    <p>Enable users to find their ideal property through advanced filters like location, price range, property type, and specific amenities, ensuring a tailored search experience.</p>
+                </div>
+                <div data-aos="fade-down">
+                    <h1>Connect</h1>
+                    <p>Facilitate direct communication between interested buyers and property owners or agents through contact forms, making inquiries and negotiations fast and straightforward.</p>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <section class="home-faq">
+        <h1 data-aos="fade-right">Frequently Asked<br>Question</h1>
+
+        <div>
+            <div data-aos="fade-down" class="home-faq-left">
+                <p>Can’t find what you’re looking for ?</p>
+                <p>We would like to chat with you.</p>
+            </div>
+            <div class="home-faq-right">
+                <div data-aos="fade-down" class="home-faqcard">
+                    <div class="faq-title" onclick="toggleFaq(this)">1. Who should use Immoview <span>+</span></div>
+                    <div class="faq-content">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+                </div>
+                <div data-aos="fade-down" class="home-faqcard">
+                    <div class="faq-title" onclick="toggleFaq(this)">2. Can I save properties? <span>+</span></div>
+                    <div class="faq-content">Yes, you can add properties to your wishlist, which makes it easier to revisit your favorite listings without needing to search through the website again.</div>
+                </div>
+                <div data-aos="fade-down" class="home-faqcard">
+                    <div class="faq-title" onclick="toggleFaq(this)">3. Is there a listing fee? <span>+</span></div>
+                    <div class="faq-content">Listing fees may apply depending on your preferences. For more details, you can get in touch with our support team, who will provide information about potential costs.</div>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <div class="footerContainer">
@@ -244,6 +292,15 @@
         <p class="Copyright"> © All Rights are reserved</p>
     </footer>
     <script src="./js/burgermenu.js"></script>
+    <script src="./js/faq.js"></script>
+    <script src="./js/homecarousel.js"></script>
     <script src="https://kit.fontawesome.com/3183b49327.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 600
+        });
+    </script>
 </body>
 </html>
