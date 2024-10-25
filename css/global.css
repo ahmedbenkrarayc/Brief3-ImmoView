@@ -2164,15 +2164,19 @@ grid-template-columns: repeat(5,1fr);
     
 }
 
-.mini_form3_button input{
+.mini_form3_button input[type="button"]{
     background-color: black;
     color:white;
     border-radius: 0.2vw;
     border: none;
     width: 10vw;
     height: 3vw;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
+.mini_form3_button input[type="button"]:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); }
 .contact_message input{
     border: none;
     border-bottom: 2px solid gray;

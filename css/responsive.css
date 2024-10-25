@@ -131,17 +131,25 @@
         width: 21rem;
     
     }
+    .mini_form3{
+        margin-right: 1rem;
+    }
     
     
-    .mini_form3_button input{
+    .mini_form3_button input[type="button"]{
         BACKGROUND-COLOR: black;
         color: white;
         border-radius: 0.8vw;
         border: none;
         width: 21vw;
         height: 6vw;
+        margin-right: 5rem;
        
     }
+    .mini_form3_button input[type="button"]:hover {
+        background-color: #0056b3; 
+        transform: scale(1.05); }
+        
     .mini_form3_button{
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -196,6 +204,10 @@ justify-self: center;
     display: flex;
     flex-direction: row;
     width: 100%;
+}
+.contact_message{
+    margin-top: 1rem;
+    margin-right: 1rem;
 }
    
 }
