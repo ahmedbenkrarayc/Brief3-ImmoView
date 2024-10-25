@@ -1505,26 +1505,34 @@
 
 /* end testimonial */
 .Details_container{
-    min-width: 100vw;
-    min-height: 100vh;
+    width: 100vw;
+    height: max-content;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-
+.image_de_mobile{
+    display: none;
+}
 .Details_main1{
     grid-column: 1/2;
     grid-row: 1/2;
     align-content: center;
-    padding: 5%;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Details_main1 img{
 width: 90%;
-height: 70%;
+height: 60vh;
 }
 .Details_catalogue img{
-    width: 15%;
-    height: 17%;
+    margin-top: 2%;
+    width: 19%;
+    height: 5em;
+    background-position: center;
+    background-size: cover;
 }
 .Details_catalogue{
     width: 90%;
@@ -1536,8 +1544,58 @@ height: 70%;
 .Details_main2{
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: wheat;
 }
+.Details_BienTitle{
+    display: flex;
+    justify-content: space-between;
+}
+.btn_share-details{
+background-color: #5D5DFF;
+width: 20%;
+height: 4em;
+margin-right: 10%;
+border-radius: 20px;
+}
+.Details_overview{
+    margin-top: 5%;
+}
+.Details-title-Icons{
+display: flex;
+align-items: center;
+gap: 1%;
+}
+.Details-title-Icons img{
+    width: 1em;
+    height: 1em;
+}
+.Details-title-Icons label{
+   font-size: 0.5em;
+}
+.Details_ComposationIcons{
+    flex-wrap: wrap;
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+.Details_ComposationIcons div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.Details_ComposationIcons div label{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.Details_ComposationIcons div img{
+    width: 3em;
+    height: 3em;
+}
+.Details_description{
+    margin-top: 5%;
+    font-size: 0.9em;
+}
+
 .Details_main3{
     grid-column: 1/2;
     grid-row: 2/3;
@@ -1546,37 +1604,61 @@ height: 70%;
     justify-content: center;
 }
 .Details_main3 form{
-    width: 60%;
-    height: 80%;
+    width: 80%;
+    height: 100%;
     flex-direction: column;
-    justify-content: center; 
     align-content: center; 
     display: flex;
-    overflow: visible;
+    align-items: center;
 }
-.Details_main3 form label+input{
+.Details_main3 form label{
+border-radius: 5px;
 width: 100%;
-height: 20%;
-padding: 20px;
-margin-bottom: 10%;
 }
-
-
+.Details_main3 form input{
+border-radius: 5px;
+width: 100%;
+height: 10%;
+margin-bottom: 2%;
+}
+#text_de_message{
+    height: 20%;
+    border-radius: 0;
+}
+#button_de_soumettre{
+    width: 25%;
+    background-color: #000000;
+    color: white;
+}
 .Details_main4{
     grid-column: 2/3;
     grid-row: 2/3;
-    background-color: rgb(165, 161, 151);
+}
+.Details_main4 div{
+    margin-top: 5%;
+}
+.Details_position{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
 }
 .Detais_Bien{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+.Details_Grid{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
 }
 .Detais_Adress{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    justify-content: center;
+    display: flex;
     gap: 20px;
+    width: 50%;
 }
 .Detais_Adress div label{
     display: block;
@@ -1586,51 +1668,6 @@ display: grid;
 grid-template-columns: repeat(5,1fr);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2029,7 +2066,11 @@ grid-template-columns: repeat(5,1fr);
     margin-left: 5vw;
 
 }
+<<<<<<< HEAD
 .contact_second_step h2{
+=======
+.contact_second_step h2,.contact_second_step p{
+>>>>>>> 9911cb7ec4f13e282f14df47032225c92a6bbaf0
     margin-top: 2vw;
     margin-left: 2vw;
     border: 2px solid red;

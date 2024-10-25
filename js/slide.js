@@ -66,3 +66,31 @@ function ShowAll(){
     propreties[i].style.display = "block";  
   }
 }
+
+
+// details java script code 
+
+let image=Document.getElementsById("grand_image1");
+function changerImage(nouvelleImage) {
+  document.getElementById('grand_image1').src = nouvelleImage;
+}
+
+document.getElementById("button_de_soumettre").addEventListener("click", function() {
+  const username = document.getElementById('username').value.trim();
+  const phone = document.getElementById('phone').value.trim();
+  const email = document.getElementById('email').value.trim();
+
+  const message = document.getElementById('message').value.trim();
+  const errorMessage = document.getElementById('error-message');
+  errorMessage.textContent = '';
+  if (!username || !phone || !email || !message) {
+      errorMessage.textContent = 'Tous les champs sont requis.';
+      return;
+  }
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailPattern.test(email)) {
+      errorMessage.textContent = 'Veuillez entrer une adresse email valide.';
+      return;
+  }
+alert('Formulaire soumis avec succès !');
+});
