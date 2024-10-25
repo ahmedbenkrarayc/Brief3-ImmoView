@@ -11,14 +11,27 @@
 <body>
     <header class="Details_header">
         <nav class="home-nav-dark topnav">
-            <img class="home-headerlogo" src="./../assets/home/logo.png" alt="logo de site web">
+            <img class="home-headerlogo" src="../assets/home/logo.png" alt="logo">
+
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="./catalog.html">Catalog</a></li>
-                <li><a href="./testimonial.html">Testimonial</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li class="home-register"><a href="./register">Register</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="home-register"><a href="register">Register</a></li>
             </ul>
+
+            <div id="mobilemenu" style="z-index: 1000;" class="homesmallnav">
+                <i class="fa-solid fa-x home-close"></i>
+                <div>
+                    <a href="../index.html">Home</a>
+                    <a href="catalog.html">Catalog</a>
+                    <a href="testimonial.html">Testimonial</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars home-burger" style="color: black; "></i>
         </nav>
     </header>
     <div class="Details_container">
@@ -214,8 +227,9 @@
         </div>
         <p class="Copyright">© All Rights are reserved</p>
     </footer>
+    <script src="../js/burgermenu.js"></script> 
     <script src="../js/slide.js" defer></script>
-    <script src="../js/burgermenu.js"></script>
+    
     <script src="https://kit.fontawesome.com/3183b49327.js" crossorigin="anonymous"></script>
 </body>
 

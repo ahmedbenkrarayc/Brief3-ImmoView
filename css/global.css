@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+
+
 /* start catalog */
+
+body{
+    overflow-x: hidden;
+}
 
 #catalog-AP:hover ,.catalog-Feat:hover {
     background-color: yellow;
     color: black;
     border-radius:30px;
     }
-    input[type="text"],
+    .catalog-typeText,
         select {
             width: 100%; 
             padding: 10px;
@@ -14,7 +27,7 @@
             font-size: 16px;
             transition: border-color 0.3s;
         }
-        input[type="text"]:focus,
+        .catalog-typeText:focus,
         select:focus {
             border-color: #8B4513; 
             outline: none; 
@@ -290,7 +303,7 @@
         align-items: center;
         justify-content: space-between;
     }
-    .Catalog-seeAll{
+    #Catalog-seeless,#Catalog-seeAll{
         background-color: #8B4513; /* Brown color */
         color: white;
         font-family: 'Garamond', serif; /* Elegant font */
@@ -303,11 +316,14 @@
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         transition: background-color 0.3s, transform 0.2s;
     }
-    .Catalog-seeAll:hover{
+    #Catalog-seeless{
+        display: none;
+    }
+    #Catalog-seeAll:hover,#Catalog-seeless:hover{
         background-color: #A0522D; 
             transform: scale(1.05);
     }
-    .Catalog-seeAll:active{
+    #Catalog-seeAll:active,#Catalog-seeless:active{
         transform: scale(0.95);
     }
     .Catalog-proprieties{
@@ -380,6 +396,7 @@
           padding: 10px;
         }
         .CatalogIcon{
+            
             text-align: center;
             width: 29%;
             height: 100%;
@@ -485,6 +502,7 @@
             justify-content: space-between;
         }
         .CatalogIcon{
+            margin-bottom: 60px;
             text-align: center;
             width: 130%;
             height: 100%;
@@ -811,13 +829,7 @@
 
 /* end page contact */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Poppins", serif;
-}
 
 .home-header{
     background-image: url('./../assets/home/headerbg.png');
@@ -1090,6 +1102,7 @@
 
 .homesmallnav{
     display: none;
+   
 }
 
 .home-filter-cards-container{
@@ -1451,6 +1464,7 @@
    }
 }
 .Details_container{
+    z-index: 0;
     width: 100vw;
     height: max-content;
     display: grid;

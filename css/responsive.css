@@ -8,7 +8,7 @@
         
     }
     .contact_second_step{
-        /* background-image: url(../assets/contact_img/Rectangle 3841.png); */
+    background-image: url(../assets/contact_img/Rectangle\ 3841.png); 
     background-repeat: no-repeat;
     width: 22rem;
     min-height: 30rem;
@@ -165,7 +165,7 @@ justify-self: center;
 @media only screen and (max-width: 768px) {
    
     .Details_header{
-        display: none;
+        display: block;
     }
     .Details_container{
         margin: 0;
@@ -209,6 +209,12 @@ justify-self: center;
     }
     .Detais_hideINmobile{
         display: none;
+    } 
+    .home-nav-dark a {
+        color: white;
+    }
+    .home-searchbox{
+        width: 100%;
     }
 }
 
@@ -274,9 +280,9 @@ justify-self: center;
 @media only screen and (max-width: 767px){
     .topnav ul{
         display: none;
-    }
+    } 
 
-    .homesmallnav{
+     .homesmallnav{
         position: fixed;
         display: block;
         top: 0;
@@ -286,6 +292,7 @@ justify-self: center;
         width: 50%;
         height: 100%;
         padding: 40px;
+        
     }
 
     .home-close{

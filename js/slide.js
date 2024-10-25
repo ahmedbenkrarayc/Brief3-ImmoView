@@ -60,11 +60,26 @@ function showSlides(n) {
 }
 
 function ShowAll(){
-  
+  let sha = document.getElementById("Catalog-seeAll");
+  let shl = document.getElementById("Catalog-seeless");
   let propreties = document.getElementsByClassName("ShowedInClick");
   for (i = 0; i < propreties.length; i++) {
     propreties[i].style.display = "block";  
+    
   }
+  sha.style.display = "none";
+    shl.style.display= "block";
+}
+function ShowLess(){
+  let sha = document.getElementById("Catalog-seeAll");
+  let shl = document.getElementById("Catalog-seeless");
+  let propreties = document.getElementsByClassName("ShowedInClick");
+  for (i = 0; i < propreties.length; i++) {
+    propreties[i].style.display = "none";  
+    
+  }
+  sha.style.display = "block";
+    shl.style.display= "none";
 }
 document.getElementById('button_de_soumettre').addEventListener('click', function() {
   const username = document.getElementById('username').value;
