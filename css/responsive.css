@@ -8,7 +8,7 @@
         
     }
     .contact_second_step{
-        background-image: url(/assets/contact_img/Rectangle 3841.png);
+        /* background-image: url(../assets/contact_img/Rectangle 3841.png); */
     background-repeat: no-repeat;
     width: 22rem;
     min-height: 30rem;
@@ -162,10 +162,6 @@ justify-self: center;
 
 
 
-
-
-
-/* end page contact */
 @media only screen and (max-width: 768px) {
    
     .Details_header{
@@ -215,7 +211,11 @@ justify-self: center;
         display: none;
     }
 }
-@media only screen and (min-width: 768px) {   
+
+
+
+/* end page contact */
+@media only screen and (min-width: 600px) {   
     .Catalog-justInmobile{
         display: none;
     }
@@ -414,4 +414,49 @@ justify-self: center;
     }
 }
 
-/* end catalog */
+
+/* staaaaaaaaaart home */
+
+@media only screen and (max-width: 767px){
+    .topnav ul{
+        display: none;
+    }
+
+    .homesmallnav{
+        position: fixed;
+        display: block;
+        top: 0;
+        right: -70%;
+        background: black;
+        color: white;
+        width: 50%;
+        height: 100%;
+        padding: 40px;
+    }
+
+    .home-close{
+        cursor: pointer;
+        display: block !important;
+        font-size: 20px;
+        margin-left: auto;
+        width: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .topnav{
+        width: 95%;
+    }
+
+    .home-burger{
+        display: block !important;
+    }
+
+    .homesmallnav a{
+        display: block;
+        margin-inline: auto;
+        width: fit-content;
+        font-size: 20px;
+        margin-block: 20px;
+        font-weight: 400;
+    }
+}

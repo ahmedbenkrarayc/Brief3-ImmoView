@@ -1,503 +1,185 @@
 /* start catalog */
 
 #catalog-AP:hover ,.catalog-Feat:hover {
-background-color: yellow;
-color: black;
-border-radius:30px;
-}
-input[type="text"],
-    select {
-        width: 100%; 
-        padding: 10px;
-        border: 1px solid #ccc; 
-        border-radius: 5px;
-        font-size: 16px;
-        transition: border-color 0.3s;
+    background-color: yellow;
+    color: black;
+    border-radius:30px;
     }
-    input[type="text"]:focus,
-    select:focus {
-        border-color: #8B4513; 
-        outline: none; 
-    }
-
+    input[type="text"],
+        select {
+            width: 100%; 
+            padding: 10px;
+            border: 1px solid #ccc; 
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        input[type="text"]:focus,
+        select:focus {
+            border-color: #8B4513; 
+            outline: none; 
+        }
     
-    label {
-        font-family: 'Garamond', serif; 
-        margin-bottom: 5px;
-        display: block; 
+        
+        label {
+            font-family: 'Garamond', serif; 
+            margin-bottom: 5px;
+            display: block; 
+        }
+    
+    footer{
+        margin-top: 94px;
+        height: 300px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        color: #8D8D8D;
+        flex-direction: column;
     }
-
-footer{
-    margin-top: 94px;
-    height: 300px;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    color: #8D8D8D;
-    flex-direction: column;
-}
-.Catalog-desc-Upper h4 a{
-text-decoration: none;
-}
-.footerContainer{
-    margin-top: 40px;
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    height: 70%;
-    border-bottom: #8D8D8D solid 1px;
-}
-.right a {
+    .Catalog-desc-Upper h4 a{
     text-decoration: none;
-    color: #8D8D8D;
-}
-.right{
-    margin-top: 28px;
-    display: flex;
-    width: 58%;
-    justify-content: space-around;
-}
-
-.Copyright{
-    margin-top: 21px;
-
-}
-.Logo{
-    font-size: xx-large;
-    margin-bottom: 40px;
-    color: white;
-}
-.title{
-    margin-bottom: 19px;
-
-    color: white;
-}
-.LogoDescription{
-    width: 215px;
-}
-.Navlinks{
-    color: white;
-}
-.Catalog-header{
-    background-image:url("../assets/catalog/background1.png"),url("../assets/catalog/bg.png") ;
-    background-size: cover;
-    width: 100%;
-    height: 650px;
-    color: white;
-   
-    
-}
-.catalog-Feat{
-    border: none;
-    background-color: white;
-    width: 100px;
-    FONT-SIZE: xx-small;
-}
-#catalog-AP{
-    background-color: #FFF8F6;
-    width: 100px;
-    border-radius: 17px;
-    FONT-SIZE: xx-small;
-}
-
-.Navlinks,.Catalog-text-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.Catalog-text-header{
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.Navlinks{
-    width: 700px;
-}
-.Catalog-HeaderContent{
-    width: 100%;
-    height: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-#Catalog-View-Details-Button{
-    width: 100px;
-}
-.Catalog-Container{
-    width: 100%;
-    height: max-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.Catalog-BarreDeFiltrage{
-    margin-top: 100px;
-
-    align-items: center;
-    width: 80%;
-    height: 33px;
-    display: flex;
-    justify-content: space-between;
-}
-.Catalog-HideInMobile{
-    margin-top: 154px;
-
-}
-.Catlog-IconsCon{
-    display: flex;
-    width: 60%;
-    justify-content: space-between;
-    height: 200px;
-
-}
-
-.Catalog-ProprietiesFiltre{
-    width: 21%;
-}
-
-.Catalog-proprety1{
-    background-image: url("../assets/catalog/p1.png");
-}
-.Catalog-proprety2{
-    background-image: url("../assets/catalog/p2.png");
-}
-.Catalog-proprety3{
-    background-image: url("../assets/catalog/p3.png");
-}
-.Catalog-proprety4{
-    background-image: url("../assets/catalog/p4.png");
-}
-.Catalog-proprety5{
-    background-image: url("../assets/catalog/p5.png");
-}
-
-.Catalog-proprety6{
-    background-image: url("../assets/catalog/p6.png");
-}
-.Catalog-Slides-bottom{
-    margin-top: 30px;
-    display: flex;
-}
-.catalog-desc{
-    width: 90%;
-    height: 90%;
-   
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-.Catalog-ShowedInClickContaner{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-.ShowedInClick{
-    display: none;
-}
-.Catalog-ShowedInClickContaner >{
-    display: none;
-   
-    
-}
-.resize img{
-    height: 100%;
-}
-.resize {
-    height: 348px;
-}
-.Catalog-desc-Contaner{
-    border-radius: 10px;
-    height: 30%;
-    background-color: white;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.Catalog-desc-localisation , .Catalog-proprety-infos ,.Catalog-desc-infos ,.catalog-bed ,.catalog-Shower , .catalog-space{
-    display: flex;
-    
-}
-.Catalog-desc-localisation img ,.Catalog-proprety-infos img{
-    height: 20px;
-}
-.catalog-info{
-    width: 100%;
-    display: flex;
-}
-.Catalog-desc-infos{
-    justify-content: space-between;
-}
-.Catalog-ForSalebutton{
-    background-color: rgb(30, 76, 30);
-    color: white;
-}
-.Catalog-Featuredbutton{
-    background-color: rgb(148, 210, 42);
-    color: white;
-}
-.Catalog-prix{
-    color: #EB664E;
-}
-.Catalog-ForSalebutton,.Catalog-Featuredbutton {
-    
-    color: white;
-    font-family: 'Garamond', serif;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s, transform 0.2s;
-}
-
-.Catalog-ForSalebutton:hover {
-    background-color: #A0522D; /* Lighter brown on hover */
-    transform: scale(1.05);
-}
-.Catalog-Featuredbutton:hover{
-    transform: scale(1.05);
-    background-color: chartreuse;
-}
-
-.Catalog-ForSalebutton,.Catalog-Featuredbutton:active {
-    transform: scale(0.95);
-}
-.Catalog-flterlogo{
-    display: flex;
-}
-#SearchButton{
-    color: white !important;
-    background: black;
-    padding: 8px 26px;
-    font-size: 12px;
-}
-.CP{
-    border-radius: 20px;
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-.Catalog-seeAll{
-    background-color: #8B4513; /* Brown color */
-    color: white;
-    font-family: 'Garamond', serif; /* Elegant font */
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s, transform 0.2s;
-}
-.Catalog-seeAll:hover{
-    background-color: #A0522D; 
-        transform: scale(1.05);
-}
-.Catalog-seeAll:active{
-    transform: scale(0.95);
-}
-.Catalog-proprieties{
-    width: 100%;
-}
-.active, .dot:hover {
-    background-color: #717171;
-  }
-  .fade img {
-    border-radius: 20px;
-  }
-  .fade {
-    margin-right: 12px;
-
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  .Catalog-Propreties{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  h4,p{
-    margin: 0;
-    padding: 0;
-}
-.Catalog-proprety-infos{
-    width: 50%;
-    justify-content: space-around;
-}
-.catalog-bed, .catalog-Shower, .catalog-space {
-    width: 30%;
-}
-@media only screen and (min-width: 768px) {   
-    .Catalog-justInmobile{
-        display: none;
     }
-    .Catalog-PropretiesContainer{
-        margin-bottom: 30px;
-        width: 70%;
-        margin-top: 25px;
-
-        display: grid;
-      grid-template-columns: auto auto auto;
-      gap: 10px;
-      padding: 10px;
-    }
-    .CatalogIcon{
-        text-align: center;
-        width: 29%;
-        height: 100%;
-    
-    }
- }
-@media only screen and (max-width: 768px) {   
-    
-    .catalog-bed ,.catalog-Shower , .catalog-space{
+    .footerContainer{
+        margin-top: 40px;
+        width: 75%;
+        display: flex;
         justify-content: space-between;
-        width: 19%;
+        height: 70%;
+        border-bottom: #8D8D8D solid 1px;
+    }
+    .right a {
+        text-decoration: none;
+        color: #8D8D8D;
+    }
+    .right{
+        margin-top: 28px;
         display: flex;
-    } 
-    .catalog-desc{
-        width: 100%;
-        height: 100%;
-        /* background-color: wheat; */
-        margin-bottom: 0px;
-
+        width: 58%;
+        justify-content: space-around;
+    }
+    
+    .Copyright{
+        margin-top: 21px;
     
     }
-    .Catalog-PropretiesContainer{
-        width: 100%;
-
-        grid-template-columns: auto ;
-  gap: 6px;
-  /* padding: 6px; */
+    .Logo{
+        font-size: xx-large;
+        margin-bottom: 40px;
+        color: white;
     }
-    .Catalog-SearchInmobile input{
-        width: 90%;
-        height: 20px;
-        border-radius: 30px;
-        /* box-shadow: #717171; */
+    .title{
+        margin-bottom: 19px;
+    
+        color: white;
     }
-    .Catalog-SearchInmobile{
+    .LogoDescription{
+        width: 215px;
+    }
+    .Navlinks{
+        color: white;
+    }
+    .Catalog-header{
+        background-image:url("../assets/catalog/background1.png"),url("../assets/catalog/bg.png") ;
+        background-size: cover;
         width: 100%;
-        display: flex;
-        justify-content: start;
+        height: 650px;
+        color: white;
        
+        
+    }
+    .catalog-Feat{
+        border: none;
+        background-color: white;
+        width: 100px;
+        FONT-SIZE: xx-small;
+    }
+    #catalog-AP{
+        background-color: #FFF8F6;
+        width: 100px;
+        border-radius: 17px;
+        FONT-SIZE: xx-small;
+    }
+    
+    .Navlinks,.Catalog-text-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .Catalog-text-header{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .Navlinks{
+        width: 700px;
+    }
+    .Catalog-HeaderContent{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #Catalog-View-Details-Button{
+        width: 100px;
+    }
+    .Catalog-Container{
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .Catalog-BarreDeFiltrage{
+        margin-top: 100px;
+    
+        align-items: center;
+        width: 80%;
+        height: 33px;
+        display: flex;
+        justify-content: space-between;
     }
     .Catalog-HideInMobile{
-        display: none;
-    }
-    .Catalog-BarreDeFiltrage-ForMobile{
-        margin-top: 64px;
-
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-        align-items: start;
-        width: 100%;
-    }
-    .Catalog-desc-Contaner{
-        border-radius: 0%;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    .Catalog-Slides-bottom{
-        width: 100%;
-
-        overflow: hidden;
-       
-
-    }
-    .Catalog-desc-infos{
-        flex-direction: column;
-        align-items: end;
-        width: 40%;
-    }
-    nav{
-        display: none;
+        margin-top: 154px;
+    
     }
     .Catlog-IconsCon{
-        height: 200px;
-        flex-direction: column;
-        align-items: center;
-        height: max-content;
-    }
-    .Catalog-rp{
-        width: 50%;
-
-    }
-    .Catalog-rp img {
-        width: 100%;
-
-    }
-    .Catalog-RP-date{
-        width: 40%;
         display: flex;
-        align-items: center;
-
-    }
-
-    .Catalog-RP-date div{
-        height: min-content;
-    }
-    .Catalog-RP-date img{
-        width: 20px;
-    }
-    .Catalog-RP-info{
-        display: flex;
+        width: 60%;
         justify-content: space-between;
+        height: 200px;
+    
     }
-    .CatalogIcon{
-        text-align: center;
-        width: 130%;
-        height: 100%;
-    }
+    
     .Catalog-ProprietiesFiltre{
-        display: none;
+        width: 21%;
     }
-    .Catalog-justInmobile{
-        display: normal;
-        width: 100%;
-
+    
+    .Catalog-proprety1{
+        background-image: url("../assets/catalog/p1.png");
     }
-    .Catalog-proprieties{
+    .Catalog-proprety2{
+        background-image: url("../assets/catalog/p2.png");
+    }
+    .Catalog-proprety3{
+        background-image: url("../assets/catalog/p3.png");
+    }
+    .Catalog-proprety4{
+        background-image: url("../assets/catalog/p4.png");
+    }
+    .Catalog-proprety5{
+        background-image: url("../assets/catalog/p5.png");
+    }
+    
+    .Catalog-proprety6{
+        background-image: url("../assets/catalog/p6.png");
+    }
+    .Catalog-Slides-bottom{
+        margin-top: 30px;
         display: flex;
       
     } 
@@ -562,6 +244,386 @@ text-decoration: none;
         flex-direction: column;
         align-items: start;
     }
-}
-
-/* end catalog */
+    .catalog-desc{
+        width: 90%;
+        height: 90%;
+       
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    .Catalog-ShowedInClickContaner{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .ShowedInClick{
+        display: none;
+    }
+    .Catalog-ShowedInClickContaner >{
+        display: none;
+       
+        
+    }
+    .resize img{
+        height: 100%;
+    }
+    .resize {
+        height: 348px;
+    }
+    .Catalog-desc-Contaner{
+        border-radius: 10px;
+        height: 30%;
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .Catalog-desc-localisation , .Catalog-proprety-infos ,.Catalog-desc-infos ,.catalog-bed ,.catalog-Shower , .catalog-space{
+        display: flex;
+        
+    }
+    .Catalog-desc-localisation img ,.Catalog-proprety-infos img{
+        height: 20px;
+    }
+    .catalog-info{
+        width: 100%;
+        display: flex;
+    }
+    .Catalog-desc-infos{
+        justify-content: space-between;
+    }
+    .Catalog-ForSalebutton{
+        background-color: rgb(30, 76, 30);
+        color: white;
+    }
+    .Catalog-Featuredbutton{
+        background-color: rgb(148, 210, 42);
+        color: white;
+    }
+    .Catalog-prix{
+        color: #EB664E;
+    }
+    .Catalog-ForSalebutton,.Catalog-Featuredbutton {
+        
+        color: white;
+        font-family: 'Garamond', serif;
+        font-size: 16px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    
+    .Catalog-ForSalebutton:hover {
+        background-color: #A0522D; /* Lighter brown on hover */
+        transform: scale(1.05);
+    }
+    .Catalog-Featuredbutton:hover{
+        transform: scale(1.05);
+        background-color: chartreuse;
+    }
+    
+    .Catalog-ForSalebutton,.Catalog-Featuredbutton:active {
+        transform: scale(0.95);
+    }
+    .Catalog-flterlogo{
+        display: flex;
+    }
+    #SearchButton{
+        color: white !important;
+        background: black;
+        padding: 8px 26px;
+        font-size: 12px;
+    }
+    .CP{
+        border-radius: 20px;
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .Catalog-seeAll{
+        background-color: #8B4513; /* Brown color */
+        color: white;
+        font-family: 'Garamond', serif; /* Elegant font */
+        font-size: 16px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    .Catalog-seeAll:hover{
+        background-color: #A0522D; 
+            transform: scale(1.05);
+    }
+    .Catalog-seeAll:active{
+        transform: scale(0.95);
+    }
+    .Catalog-proprieties{
+        width: 100%;
+    }
+    .active, .dot:hover {
+        background-color: #717171;
+      }
+      .fade img {
+        border-radius: 20px;
+      }
+      .fade {
+        margin-right: 12px;
+    
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .Catalog-Propreties{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      h4,p{
+        margin: 0;
+        padding: 0;
+    }
+    .Catalog-proprety-infos{
+        width: 50%;
+        justify-content: space-around;
+    }
+    .catalog-bed, .catalog-Shower, .catalog-space {
+        width: 30%;
+    }
+    @media only screen and (min-width: 768px) {   
+        .Catalog-justInmobile{
+            display: none;
+        }
+        .Catalog-PropretiesContainer{
+            margin-bottom: 30px;
+            width: 70%;
+            margin-top: 25px;
+    
+            display: grid;
+          grid-template-columns: auto auto auto;
+          gap: 10px;
+          padding: 10px;
+        }
+        .CatalogIcon{
+            text-align: center;
+            width: 29%;
+            height: 100%;
+        
+        }
+     }
+    @media only screen and (max-width: 768px) {   
+        
+        .catalog-bed ,.catalog-Shower , .catalog-space{
+            justify-content: space-between;
+            width: 19%;
+            display: flex;
+        } 
+        .catalog-desc{
+            width: 100%;
+            height: 100%;
+            /* background-color: wheat; */
+            margin-bottom: 0px;
+    
+        
+        }
+        .Catalog-PropretiesContainer{
+            width: 100%;
+    
+            grid-template-columns: auto ;
+      gap: 6px;
+      /* padding: 6px; */
+        }
+        .Catalog-SearchInmobile input{
+            width: 90%;
+            height: 20px;
+            border-radius: 30px;
+            /* box-shadow: #717171; */
+        }
+        .Catalog-SearchInmobile{
+            width: 100%;
+            display: flex;
+            justify-content: start;
+           
+        }
+        .Catalog-HideInMobile{
+            display: none;
+        }
+        .Catalog-BarreDeFiltrage-ForMobile{
+            margin-top: 64px;
+    
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+            align-items: start;
+            width: 100%;
+        }
+        .Catalog-desc-Contaner{
+            border-radius: 0%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        .Catalog-Slides-bottom{
+            width: 100%;
+    
+            overflow: hidden;
+           
+    
+        }
+        .Catalog-desc-infos{
+            flex-direction: column;
+            align-items: end;
+            width: 40%;
+        }
+        nav{
+            display: none;
+        }
+        .Catlog-IconsCon{
+            height: 200px;
+            flex-direction: column;
+            align-items: center;
+            height: max-content;
+        }
+        .Catalog-rp{
+            width: 50%;
+    
+        }
+        .Catalog-rp img {
+            width: 100%;
+    
+        }
+        .Catalog-RP-date{
+            width: 40%;
+            display: flex;
+            align-items: center;
+    
+        }
+    
+        .Catalog-RP-date div{
+            height: min-content;
+        }
+        .Catalog-RP-date img{
+            width: 20px;
+        }
+        .Catalog-RP-info{
+            display: flex;
+            justify-content: space-between;
+        }
+        .CatalogIcon{
+            text-align: center;
+            width: 130%;
+            height: 100%;
+        }
+        .Catalog-ProprietiesFiltre{
+            display: none;
+        }
+        .Catalog-justInmobile{
+            display: normal;
+            width: 100%;
+    
+        }
+        .Catalog-proprieties{
+            display: flex;
+          
+        } 
+        .Catalog-proprety-infos{
+            display: flex;
+            justify-content: space-between;
+    
+    
+        }
+        .Catalog-prix{
+            text-align: end;
+        }
+        .Catalog-slideb img{
+            height: 457px;
+    
+    
+        }
+        .Catalog-slideb{
+        width:400px;
+        }
+        /* .CP{
+            width: 100vw;
+            height: 300px;
+            margin-bottom: 30px;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        } */
+         footer{
+            height: max-content;
+         }
+        .footerContainer,.right{
+            flex-direction: column;
+            width: 70%;
+            
+    
+    
+        }
+        .Copyright {
+            margin: 10px 0px;
+        }
+        .LogoDescription {
+            width: 410px;
+            font-size: large;
+        }
+        .linksContainer{
+            margin-bottom: 25px;
+    
+        }
+        .linksContainer p{
+            margin-bottom: 4px;
+    
+        }
+        .title{
+            margin-top: 10px;
+            font-size: large;
+        }
+        .left,.right{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+    }
+    
+    /* end catalog */
