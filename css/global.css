@@ -1499,14 +1499,16 @@
 
 /* end testimonial */
 .Details_container{
-    overflow: hidden;
+    /* overflow: hidden; */
     min-width: 100vw;
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-
+/* body{
+    overflow-y: visible;
+} */
 .Details_main1{
     grid-column: 1/2;
     grid-row: 1/2;
@@ -1622,15 +1624,6 @@ display: grid;
 grid-template-columns: repeat(5,1fr);
 
 }
-
-
-
-
-
-
-
-
-
 
 
 
