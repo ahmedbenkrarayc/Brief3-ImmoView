@@ -57,17 +57,18 @@
 @media only screen and (max-width: 768px) {
    
     .Details_header{
-        width: 0;
+        display: none;
     }
     .Details_container{
         margin: 0;
         padding: 0;
-        min-width: 100vw;
+        width: 100vw;
         min-height: 100vh;
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
+    
     .Details_main1 img{
         width: 100vw;
         height: 100%;
