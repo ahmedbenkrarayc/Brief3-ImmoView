@@ -1,3 +1,4 @@
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -25,26 +26,46 @@ function showSlides(n) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
 
-  // Show the current, previous, and next slides
-  if (slideIndex === 0) {
+  
+  if (slideIndex === 1) {
+
     slides[slideIndex].style.display = "block";  
-    slides[slides.length - 1].style.display = "block"; // Last slide
-    slides[1].style.display = "block"; // Second slide
-  } else if (slideIndex === slides.length-1) {
-    slides[slideIndex ].style.display = "block"; // Current slide
-    slides[slideIndex - 1].style.display = "block"; // Previous slide
-    slides[0].style.display = "block"; // First slide
-  } else {
-    slides[slideIndex ].style.display = "block"; // Current slide
-    slides[slideIndex+1].style.display = "block"; // Next slide
-    slides[slideIndex - 1].style.display = "block"; // Slide after next
+    
+    slides[2].style.display = "block"; 
+    slides[3].style.display = "block";
+    slides[4].style.display ="block";
+    slides[5].style.display ="block";
+  } else if (slideIndex === 2) {
+    
+    slides[2].style.display = "block"; 
+    slides[3].style.display = "block";
+    slides[4].style.display ="block";
+    slides[5].style.display ="block";
+    slides[6].style.display ="block";
+   
+  } else if  (slideIndex === 3){
+    slides[3].style.display = "block"; 
+    slides[4].style.display = "block";
+    slides[5].style.display ="block";
+    slides[6].style.display ="block";
+    slides[7].style.display ="block";
+    
+ 
   }
 
-  // Set the active dot
+ 
   dots[slideIndex - 1].className += " active";
   console.log(" slideS:", slides.length);
 
   console.log("Current slide index:", slideIndex);
+}
+
+function ShowAll(){
+  
+  let propreties = document.getElementsByClassName("ShowedInClick");
+  for (i = 0; i < propreties.length; i++) {
+    propreties[i].style.display = "block";  
+  }
 }
 document.getElementById('button_de_soumettre').addEventListener('click', function() {
   const username = document.getElementById('username').value;
@@ -63,4 +84,3 @@ let image=Document.getElementsById("grand_image1");
 function changerImage(nouvelleImage) {
   document.getElementById('grand_image1').src = nouvelleImage;
 }
-
