@@ -49,3 +49,50 @@
         display: flex;
     }
 }
+
+
+/* staaaaaaaaaart home */
+
+@media only screen and (max-width: 767px){
+    .topnav ul{
+        display: none;
+    }
+
+    .homesmallnav{
+        position: fixed;
+        display: block;
+        top: 0;
+        right: -70%;
+        background: black;
+        color: white;
+        width: 50%;
+        height: 100%;
+        padding: 40px;
+    }
+
+    .home-close{
+        cursor: pointer;
+        display: block !important;
+        font-size: 20px;
+        margin-left: auto;
+        width: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .topnav{
+        width: 95%;
+    }
+
+    .home-burger{
+        display: block !important;
+    }
+
+    .homesmallnav a{
+        display: block;
+        margin-inline: auto;
+        width: fit-content;
+        font-size: 20px;
+        margin-block: 20px;
+        font-weight: 400;
+    }
+}

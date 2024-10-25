@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ImmoView | Home</title>
     <link rel="stylesheet" href="./../css/global.css">
+    <link rel="stylesheet" href="./../css/responsive.css">
 </head>
 <body>
     <header class="home-header">
@@ -18,6 +19,18 @@
                 <li><a href="./contact.html">Contact</a></li>
                 <li class="home-register"><a href="./register">Register</a></li>
             </ul>
+
+            <div id="mobilemenu" class="homesmallnav">
+                <i class="fa-solid fa-x home-close"></i>
+                <div>
+                    <a href="./index.html">Home</a>
+                    <a href="./catalog.html">Catalog</a>
+                    <a href="./testimonial.html">Testimonial</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="./login.html">Login</a>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars home-burger"></i>
         </nav>
         <div class="home-headercontainer">
             <h1 class="home-headertitle">Find your dream Home</h1>
@@ -79,8 +92,25 @@
             </div>
             <button class="home-viewmore">Explore All listing</button>
         </div>
-    </section>
 
+        <!-- <section class="home-filter-cards-container">
+            <div class="home-filtercard">
+                <img src="./../assets/home/appartment1.png" alt="">
+                <div>
+                    <div>
+                        <h1><a href="#">The Queen Inside</a></h1>
+                        <span>$7,20,000</span>
+                    </div>
+                    <p><img src="./../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    <div>
+                        <p><img src="./../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                        <p><img src="./../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </section>
+    <script src="./../js/burgermenu.js"></script>
     <script src="https://kit.fontawesome.com/3183b49327.js" crossorigin="anonymous"></script>
 </body>
 </html>
