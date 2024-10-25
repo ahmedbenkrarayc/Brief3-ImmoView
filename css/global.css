@@ -2036,7 +2036,7 @@ grid-template-columns: repeat(5,1fr);
     overflow: hidden;
     
 }
-.contact_second_step h2,p{
+.contact_second_step h2 p{
     margin-top: 2vw;
     margin-left: 2vw;
     padding-right: 1vw;
