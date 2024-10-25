@@ -1,5 +1,10 @@
 /* start catalog */
 
+#catalog-AP:hover ,.catalog-Feat:hover {
+background-color: yellow;
+color: black;
+border-radius:30px;
+}
 input[type="text"],
     select {
         width: 100%; 
@@ -23,6 +28,7 @@ input[type="text"],
     }
 
 footer{
+    margin-top: 94px;
     height: 300px;
     background-color: black;
     display: flex;
@@ -137,6 +143,10 @@ text-decoration: none;
     display: flex;
     justify-content: space-between;
 }
+.Catalog-HideInMobile{
+    margin-top: 154px;
+
+}
 .Catlog-IconsCon{
     display: flex;
     width: 60%;
@@ -169,6 +179,7 @@ text-decoration: none;
     background-image: url("../assets/catalog/p6.png");
 }
 .Catalog-Slides-bottom{
+    margin-top: 30px;
     display: flex;
 }
 .catalog-desc{
@@ -260,7 +271,15 @@ text-decoration: none;
 .Catalog-ForSalebutton,.Catalog-Featuredbutton:active {
     transform: scale(0.95);
 }
-
+.Catalog-flterlogo{
+    display: flex;
+}
+#SearchButton{
+    color: white !important;
+    background: black;
+    padding: 8px 26px;
+    font-size: 12px;
+}
 .CP{
     border-radius: 20px;
     width: 100%;
@@ -351,7 +370,9 @@ text-decoration: none;
         display: none;
     }
     .Catalog-PropretiesContainer{
+        margin-bottom: 30px;
         width: 70%;
+        margin-top: 25px;
 
         display: grid;
       grid-template-columns: auto auto auto;
