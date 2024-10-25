@@ -73,12 +73,7 @@
     justify-content: space-between;
     height: max-content;
 }
-.CatalogIcon{
-    text-align: center;
-    width: 15%;
-    height: 100%;
 
-}
 .Catalog-ProprietiesFiltre{
     width: 21%;
 }
@@ -119,8 +114,12 @@
     border-radius: 10px;
     height: 30%;
     background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.Catalog-desc-localisation , .Catalog-proprety-infos ,.Catalog-desc-infos ,.catalog-bed ,.catalog-shower , .catalog-space{
+.Catalog-desc-localisation , .Catalog-proprety-infos ,.Catalog-desc-infos ,.catalog-bed ,.catalog-Shower , .catalog-space{
     display: flex;
     
 }
@@ -182,7 +181,18 @@
     from {opacity: .4} 
     to {opacity: 1}
   }
-@media only screen and (min-width: 600px) {   
+  h4,p{
+    margin: 0;
+    padding: 0;
+}
+.Catalog-proprety-infos{
+    width: 50%;
+    justify-content: space-around;
+}
+.catalog-bed, .catalog-Shower, .catalog-space {
+    width: 30%;
+}
+@media only screen and (min-width: 767px) {   
     .Catalog-justInmobile{
         display: none;
     }
@@ -193,8 +203,15 @@
       gap: 10px;
       padding: 10px;
     }
+    .CatalogIcon{
+        text-align: center;
+        width: 15%;
+        height: 100%;
+    
+    }
  }
-@media only screen and (max-width: 600px) {   
+@media only screen and (max-width: 767px) {   
+    
     .catalog-bed ,.catalog-Shower , .catalog-space{
         justify-content: space-between;
         width: 19%;
@@ -258,14 +275,43 @@
         align-items: center;
         height: max-content;
     }
-    .CatalogIcon{
+    .Catalog-rp{
+        width: 50%;
+
+    }
+    .Catalog-rp img {
         width: 100%;
+
+    }
+    .Catalog-RP-date{
+        width: 40%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .Catalog-RP-date div{
+        height: min-content;
+    }
+    .Catalog-RP-date img{
+        width: 20px;
+    }
+    .Catalog-RP-info{
+        display: flex;
+        justify-content: space-between;
+    }
+    .CatalogIcon{
+        text-align: center;
+        width: 130%;
+        height: 100%;
     }
     .Catalog-ProprietiesFiltre{
         display: none;
     }
     .Catalog-justInmobile{
         display: normal;
+        width: 100%;
+
     }
     .Catalog-proprieties{
         display: flex;

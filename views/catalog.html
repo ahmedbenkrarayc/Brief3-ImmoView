@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/catalog.css">
-    <link rel="stylesheet" href="../css/global.css">
+    <!-- <link rel="stylesheet" href="../css/global.css"> -->
     <title>Catalog</title>
 </head>
 <body>
     <header class="Catalog-header">
-        <!-- <nav class="home-nav-white">
+        <nav class="home-nav-white">
             <img class="home-headerlogo" src="./../assets/home/logo.png" alt="logo">
 
             <ul>
@@ -19,7 +19,7 @@
                 <li><a href="./contact.html">Contact</a></li>
                 <li class="home-register"><a href="./register">Register</a></li>
             </ul>
-        </nav> -->
+        </nav>
         <div class="Catalog-HeaderContent">
             <h1>Catalog</h1>
 
@@ -59,18 +59,20 @@
         </div>
         <div class="Catalog-BarreDeFiltrage Catalog-BarreDeFiltrage-ForMobile">
            <div class="Catalog-SearchInmobile">
-            <label for="KeyWord" class="Catalog-HideInMobile">Keyword</label>
+            <label for="KeyWord" class="Catalog-HideInMobile">Enter Keyword</label>
             <input type="text" name="keyWord">
            </div>
            <div class="Catalog-HideInMobile">
             <label for="Status">Status</label>
             <select name="Status" id="">
-                <option value="All Type">All Type</option>
+                <option value="All Status">All Status</option>
             </select>
            </div>
            <div class="Catalog-HideInMobile">
             <label for="Type">Type</label>
-            <input type="text" name="Type">
+            <select name="Type" id="">
+                <option value="All Type">All Type</option>
+            </select>
            </div>
            <div>
             <img src="../assets/catalog/Vector.png" alt="" srcset="">
@@ -303,13 +305,35 @@
             <div class="Catalog-proprieties">
                 <div class="Catalog-rp">
                     <img src="../assets/catalog/rp1.png" alt="">
-                    <p>Saadiyat reserve</p>
+                    <div class="Catalog-RP-desc">
+                        <p>Saadiyat reserve</p>
+                        <p>Abu Dhabi</p>
+                        <div class="Catalog-RP-info">
+                            <p>600 to 1,400 SQM</p>
+                            <div class="Catalog-RP-date">
+                               <div> <img src="../assets/catalog/key.png" alt=""></div>
+                            <p>Jan - 2022</p>
+                            </div>
+                        </div>
+                    </div>
 
                     
                 </div>
                 <div class="Catalog-rp">
-                    <img src="../assets/catalog/rp2.png" alt="">
-                    <p>Meraas Le Pont Apartments</p>
+                    <img src="../assets/catalog/rp1.png" alt="">
+                    <div class="Catalog-RP-desc">
+                        <p>Saadiyat reserve</p>
+                        <p>Abu Dhabi</p>
+                        <div class="Catalog-RP-info">
+                            <p>600 to 1,400 SQM</p>
+                            <div class="Catalog-RP-date">
+                               <div> <img src="../assets/catalog/key.png" alt=""></div>
+                            <p>Jan - 2022</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
                 </div>
 
             </div>
@@ -325,8 +349,8 @@
                 <div  class="Catalog-slideb fade"><img src="../assets/catalog/c4.png" alt=""></div>
                 <div  class="Catalog-slideb fade"><img src="../assets/catalog/c5.png" alt=""></div>
             </div>
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
+            <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a> -->
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span> 
                 <span class="dot" onclick="currentSlide(2)"></span> 
