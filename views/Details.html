@@ -6,16 +6,12 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    
-    <title>Document</title>
+    <title>ImoView details</title>
 </head>
 <body>
     <header class="Details_header">
         <nav class="home-nav-dark topnav">
-            <img class="home-headerlogo" src="./../assets/home/logo.png" alt="logo">
-
+            <img class="home-headerlogo" src="./../assets/home/logo.png" alt="logo de site web">
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./catalog.html">Catalog</a></li>
@@ -26,7 +22,8 @@
         </nav>
     </header>
     <div class="Details_container">
-        <div class="Details_main1">
+
+        <section class="Details_main1">
             <img id="grand_image1" src="../assets/Details/home3.jpg" alt=" a home of peoble">
             <div class="Details_catalogue Detais_hideINmobile">
                 <img id="cata_image1" src="../assets/Details/cataloque1.jpg" alt="a home of peoble"  onclick="changerImage('../assets/Details/cataloque1.jpg')">
@@ -35,7 +32,7 @@
                 <img id="cata_image4" src="../assets/Details/cataloque4.jpg" alt="a home of peoble"  onclick="changerImage('../assets/Details/cataloque4.jpg')">
                 <img id="cata_image5" src="../assets/Details/cataloque6.jpg" alt="a home of peoble"  onclick="changerImage('../assets/Details/cataloque5.jpg')">
             </div>
-        </div>
+        </section>
         <section class="Details_main2">
             <div>
                 <div class="Details_BienTitle">
@@ -43,9 +40,7 @@
                     <button class="btn_share-details">
                         <i class="fa-solid fa-arrow-up-from-bracket"></i>Share
                     </button>                    
-                    <!-- <button class="btn_share-details">share</button> -->
                 </div>
-
                 <div class="Details-title-Icons">
                     <img src="../assets/Details/Home.png" alt="a home of peoble">
                     <label for="">Residence</label>
@@ -96,21 +91,21 @@
           
             </div> 
         </section>
-        <div class="Details_main3" data-aos="fade-down-left">
+        <div class="Details_main3" >
             <form >
                 <label for="username">Uesername</label>
-                <input type="text" placeholder="Enter username">
+                <input type="text" id="username" placeholder="Enter username">
                 <label for="username">phone number</label>
-                <input type="text" placeholder="+212">
+                <input type="text" id="phone" placeholder="+212">
                 <label for="username">e-mail</label>
-                <input type="text" placeholder="email@mail.com">
+                <input type="text"id="email" placeholder="email@mail.com">
                 <label for="username">message</label>
                 <input type="text" id="text_de_message" placeholder="Message ">
                 <input type="button" id="button_de_soumettre" value="Soumettre" >
         </form>
         </div>
         <form class="Details_main4">
-            <div data-aos="fade-down-left">
+            <div >
                 <section class="Detais_Bien">
                     <div>
                         <label>Adress</label>
@@ -219,10 +214,7 @@
         </div>
         <p class="Copyright">© All Rights are reserved</p>
     </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../js/slide.js"></script>
-    <script>
-        AOS.init();
-      </script>
 </body>
+<script src="../js/slide.js" ></script>
+
 </html>
