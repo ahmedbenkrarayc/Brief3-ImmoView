@@ -2053,6 +2053,10 @@ grid-template-columns: repeat(5,1fr);
     /* border: 2px solid red; */
     
 }
+.contact_padding{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
 
 
 .contact_flex{
@@ -2116,6 +2120,9 @@ grid-template-columns: repeat(5,1fr);
     margin-top: 10vw;
     margin-left: 5vw;
 }
+.form1{
+    padding: 2px 2px;
+}
 .mini_form1{
     display: flex;
     justify-content: space-between;
@@ -2140,7 +2147,13 @@ grid-template-columns: repeat(5,1fr);
 
 .mini_form3{
     margin-top: 2vw;
+    
 }
+.contact_radio{
+    display: flex;
+    justify-content: space-between;
+}
+
 .mini_form3 input [type="checkbox"]{
     border-radius: 50%;
     

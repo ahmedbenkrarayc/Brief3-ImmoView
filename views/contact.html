@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/responsive.css">
     <!-- <link rel="stylesheet" href="/css/contact.css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -29,10 +31,10 @@
         <h1>Contact Us</h1>
        <p>Any question or remarks? Just write us a message!</p>
     </div>
-    <div class="contact_form">
+    <div class="contact_form" data-aos="zoom-in-up" data-aos-duration="7000">
     <form class="form1">
 <div class="contact_second_step">
-    <div>
+    <div class="contact_padding">
         <h2>Contact Information</h2>
         <p>Say something to start a live chat!</p>
         
@@ -51,7 +53,7 @@
     </div>
     
           <div Class="contact_media">
-      <h2>Our Social Media :</h2>
+      <h2 style="margin-left: 1rem;">Our Social Media :</h2>
   <div class="contact_media_logo">  
         <img src="/assets/contact_img/twitter.png">
         <img src="/assets/contact_img/instagram.png">
@@ -73,15 +75,25 @@
     <div class="mini_form2">
        <div> <label for="email">Email</label><br><br>
         <input type="email"></div>
-      <div> <label for="phone">Phone Number</label><br><br>
-        <input type="tel"></div>
+      <div> <label for="phone" >Phone Number</label><br><br>
+        <input type="tel" ></div>
     </div>
     <div class="mini_form3">
-       <div> <label for="select">Select Subject?</label><br><br>
-        <input type="radio" name="subject">General Inquiry 
-        <input type="radio" name="subject">Make an appointment 
-        <input type="radio" name="subject">Customer complaint 
-         </div> <br><br>
+       <label for="select">Select Subject?</label><br><br>
+    <div class="contact_radio">
+    <div class="radio_edit"> 
+        <input type="radio" name="subject" id="general-inquiry">
+        <label for="general-inquiry">General Inquiry</label>
+    </div>
+    <div class="radio_edit"> 
+        <input type="radio" name="subject" id="make-appointment">
+        <label for="make-appointment">Make an appointment</label>
+    </div>  
+    <div class="radio_edit">
+        <input type="radio" name="subject" id="customer-complaint">
+        <label for="customer-complaint">Customer complaint</label>
+    </div> 
+</div>
         <div class="contact_message"><label for="message">Message</label><br>
         <input type="text" placeholder="Write your message.."></div><br>
     </div>
@@ -93,7 +105,7 @@
 </div>
 </div>
     <!-- Maps  -->
-    <div class="maps">
+    <div class="maps" data-aos="flip-left" data-aos-duration="7000">
         <h2> This is our location</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41666.954769408076!2d-9.163112640380849!3d32.292919084308025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac21002d578a85%3A0xde89b38e6d302490!2sYoucode!5e1!3m2!1sar!2sma!4v1729785413254!5m2!1sar!2sma" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -101,26 +113,106 @@
 
 <!-- Our Services -->
 
- <div class="contact_service">
+ <div class="contact_service" data-aos="zoom-in-up" data-aos-duration="4000">
         <h1>Our Services</h1>
         <p>We are here for your comfort first and your satisfaction second.</p>
     </div>
     <div class="contact_our_service">
-        <div> 
+        <div data-aos="fade-left" data-aos-duration="7000"> 
              <img src="/assets/contact_img/sales.jpg">
             <p>House Sale</p>
         </div>
-        <div> 
+        <div  data-aos="flip-left" data-aos-duration="7000"> 
              <img src="/assets/contact_img/Rent.jpg">
             <p>House Rental</p>
         </div>
-        <div>
+        <div data-aos="fade-right" data-aos-duration="7000">
              <img src="/assets/contact_img/Buying.jpg">
             <p>Buying Homes</p>
         </div>
     </div>
     
- <footer></footer>
-
+ 
+    <footer>
+        <div class="footerContainer">
+            <div class="left">
+                <p class="Logo">
+                    ImmoView
+                </p>
+                <p class="LogoDescription">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                </p>
+            </div>
+            <div class="right">
+                <div class="linksContainer">
+                    <p class="title">Company</p>
+                    <p>
+                        <a href="">About Us</a>
+                    </p>
+                    <p>
+                       <a href=""> Blog</a>
+                    </p>
+                    <p>
+                       <a href=""> FAQs</a>
+                    </p>
+                    <p>
+                       <a href=""> Press</a>
+                    </p>
+                </div>
+                
+                <div class="linksContainer">
+                    <p class="title">Support</p>
+                    <p>
+                        <a href="">Help</a>
+                    </p>
+                    <p>
+                       <a href=""> Contact</a>
+                    </p>
+                    <p>
+                       <a href=""> Chat</a>
+                    </p>
+                    <p>
+                       <a href=""> Terms</a>
+                    </p>
+                </div>
+                <div class="linksContainer">
+                    <p class="title">Products</p>
+                    <p>
+                        <a href=""> Features</a>
+                    </p>
+                    <p>
+                       <a href=""> Pricing</a>
+                    </p>
+                    <p>
+                       <a href=""> Integrations</a>
+                    </p>
+                    <p>
+                       <a href=""> Demo</a>
+                    </p>
+                </div>
+                <div class="linksContainer">
+                    <p class="title">Social</p>
+                    <p>
+                        <a href="">LinkedIn</a>
+                    </p>
+                    <p>
+                       <a href=""> Facebook</a>
+                    </p>
+                    <p>
+                       <a href=""> Twitter</a>
+                    </p>
+                    <p>
+                       <a href=""> Intagram</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="Copyright">© All Rights are reserved</p>
+    </footer>
+ 
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+    AOS.init();
+  </script>
 </body>
 </html>

@@ -49,3 +49,161 @@
         display: flex;
     }
 }
+
+
+
+/* start page conatct media queries */
+@media (max-width:768px){
+    .contact_form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .contact_second_step{
+        background-image: url(/assets/contact_img/Rectangle 3841.png);
+    background-repeat: no-repeat;
+    width: 22rem;
+    min-height: 30rem;
+    color: white;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+    position: relative;
+    z-index: 50;
+    overflow: hidden;
+}
+    
+    .cercle{
+        border-radius: 50%;
+        position: absolute;
+    }
+    .c1{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(72, 72, 72, 0.5);
+        bottom: 8%;
+        right: 13%;
+        z-index: 1;
+    }
+    .c2{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(26, 26, 26);
+        bottom: -18%;
+        right: -24%;
+        z-index: -1;
+    }
+    
+    .form2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact_padding{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .mini_form1{
+        display:flex;
+        flex-direction: column;
+        
+        
+    }
+    .mini_form1 input{
+        border: none;
+        border-bottom: 2px solid gray;
+        width: 21rem;
+    }
+    .mini_form2{
+        display: flex;
+        flex-direction: column;
+    }
+    .mini_form2 input{
+        border: none;
+        border-bottom: 2px solid gray;
+        width: 21rem;
+    
+    }
+    
+    
+    .mini_form3_button input{
+        BACKGROUND-COLOR: black;
+        color: white;
+        border-radius: 0.8vw;
+        border: none;
+        width: 21vw;
+        height: 6vw;
+       
+    }
+    .mini_form3_button{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 12rem;
+        
+    }
+    .maps{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+      
+    }
+    .contact_service {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    
+    .contact_our_service img{
+        width: 12rem;
+        height: 8rem;
+    }
+.contact_our_service{
+width: 90vw;
+margin-top: 5vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-self: center;
+
+}
+.maps iframe{
+    width: 600px;
+    height: 300px;
+
+}
+
+.contact_media h2{
+    margin-left: 1rem;
+}
+
+.contact_radio {
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+.radio_edit {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+   
+}
+
+
+
+
+
+
+
+
+/* end page contact */
