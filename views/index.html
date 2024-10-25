@@ -4,21 +4,246 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ImmoView | Home</title>
-    <link rel="stylesheet" href="./../css/global.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 <body>
     <header class="home-header">
         <nav class="home-nav-white topnav">
-            <img class="home-headerlogo" src="./../assets/home/logo.png" alt="logo">
+            <img class="home-headerlogo" src="../assets/home/logo.png" alt="logo">
 
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./catalog.html">Catalog</a></li>
-                <li><a href="./testimonial.html">Testimonial</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li class="home-register"><a href="./register">Register</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="home-register"><a href="register">Register</a></li>
             </ul>
+
+            <div id="mobilemenu" class="homesmallnav">
+                <i class="fa-solid fa-x home-close"></i>
+                <div>
+                    <a href="index.html">Home</a>
+                    <a href="catalog.html">Catalog</a>
+                    <a href="testimonial.html">Testimonial</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars home-burger"></i>
         </nav>
+        <div class="home-headercontainer">
+            <h1 class="home-headertitle">Find your dream Home</h1>
+            <p class="home-headerdesc">we understand the fact that modern people strive for maximum comfort.</p>
+            <section class="home-searchbox">
+                <div>
+                    <label for="keyword">Keyword</label>
+                    <input type="text" placeholder="Enter a keyword" id="keyword">
+                </div>
+                <div>
+                    <label for="location">Location</label>
+                    <input type="text" placeholder="Enter your location" id="location">
+                </div>
+                <div>
+                    <label for="type">Type</label>
+                    <input type="text" placeholder="Enter your type" id="type">
+                </div>
+                <div class="home-searchbtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </section>
+        </div>
     </header>
+
+    <section class="home-statistics">
+        <div>
+            <div class="home-item">
+                <h1>128<span>K</span></h1>
+                <p>Renters</p>
+            </div>
+            <div class="home-item">
+                <h1>300<span>+</span></h1>
+                <p>Specialists</p>
+            </div>
+            <div class="home-item">
+                <h1>78<span>%</span></h1>
+                <p>Yearly Growth</p>
+            </div>
+            <div class="home-item">
+                <h1>10<span>K+</span></h1>
+                <p>Properties</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-mission">
+        <h1>Our mission</h1>
+        <p>At Immoview, our mission is to make finding your dream property a seamless and enjoyable experience. We are committed to providing accurate, up-to-date listings and personalized support, ensuring that you have all the information and guidance you need to make confident real estate decisions. Whether you’re buying, selling, or renting, our goal is to connect you with the perfect property that meets your needs and aspirations.</p>
+    </section>
+
+    <div class="home-line"></div>
+    
+    <section class="home-filtersection">
+        <div class="home-filterbtncontainer">
+            <div>
+                <button class="home-active">Residential</button>
+                <button>Commercial</button>
+                <button>Appartment</button>
+            </div>
+            <button class="home-viewmore">Explore All listing</button>
+        </div>
+
+        <section class="home-filter-cards-container">
+            <div class="home-filtercard">
+                <img src="../assets/home/appartment1.png" alt="">
+                <div class="home-card-detailscontainer">
+                    <div>
+                        <h1><a href="#">The Queen Inside</a></h1>
+                        <span>$7,20,000</span>
+                    </div>
+                    <p><img src="../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    <div class="home-carddetails">
+                        <p><img src="../assets/home/bedicon.png" alt="location icon">4 Beds</p>
+                        <p><img src="../assets/home/bathicon.png" alt="location icon">2 Baths</p>
+                    </div>
+                </div>
+            </div>
+            <div class="home-filtercard">
+                <img src="../assets/home/appartment1.png" alt="">
+                <div class="home-card-detailscontainer">
+                    <div>
+                        <h1><a href="#">The Queen Inside</a></h1>
+                        <span>$7,20,000</span>
+                    </div>
+                    <p><img src="../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    <div class="home-carddetails">
+                        <p><img src="../assets/home/bedicon.png" alt="location icon">4 Beds</p>
+                        <p><img src="../assets/home/bathicon.png" alt="location icon">2 Baths</p>
+                    </div>
+                </div>
+            </div>
+            <div class="home-filtercard">
+                <img src="../assets/home/appartment1.png" alt="">
+                <div class="home-card-detailscontainer">
+                    <div>
+                        <h1><a href="#">The Queen Inside</a></h1>
+                        <span>$7,20,000</span>
+                    </div>
+                    <p><img src="../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    <div class="home-carddetails">
+                        <p><img src="../assets/home/bedicon.png" alt="location icon">4 Beds</p>
+                        <p><img src="../assets/home/bathicon.png" alt="location icon">2 Baths</p>
+                    </div>
+                </div>
+            </div>
+            <div class="home-filtercard">
+                <img src="../assets/home/appartment1.png" alt="">
+                <div class="home-card-detailscontainer">
+                    <div>
+                        <h1><a href="#">The Queen Inside</a></h1>
+                        <span>$7,20,000</span>
+                    </div>
+                    <p><img src="../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    <div class="home-carddetails">
+                        <p><img src="../assets/home/bedicon.png" alt="location icon">4 Beds</p>
+                        <p><img src="../assets/home/bathicon.png" alt="location icon">2 Baths</p>
+                    </div>
+                </div>
+            </div>
+            <div class="home-filtercard">
+                <img src="../assets/home/appartment1.png" alt="">
+                <div class="home-card-detailscontainer">
+                    <div>
+                        <h1><a href="#">The Queen Inside</a></h1>
+                        <span>$7,20,000</span>
+                    </div>
+                    <p><img src="../assets/home/locationicon.png" alt="location icon">Evergreen Chemists</p>
+                    <div class="home-carddetails">
+                        <p><img src="../assets/home/bedicon.png" alt="location icon">4 Beds</p>
+                        <p><img src="../assets/home/bathicon.png" alt="location icon">2 Baths</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </section>
+    <footer>
+        <div class="footerContainer">
+            <div class="left">
+                <p class="Logo">
+                    ImmoView
+                </p>
+                <p class="LogoDescription">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                </p>
+            </div>
+            <div class="right">
+                <div class="linksContainer">
+                    <p class="title">Company</p>
+                    <p>
+                        <a href="">About Us</a>
+                    </p>
+                    <p>
+                       <a href=""> Blog</a>
+                    </p>
+                    <p>
+                       <a href=""> FAQs</a>
+                    </p>
+                    <p>
+                       <a href=""> Press</a>
+                    </p>
+                </div>
+                
+                <div class="linksContainer">
+                    <p class="title">Support</p>
+                    <p>
+                        <a href="">Help</a>
+                    </p>
+                    <p>
+                       <a href=""> Contact</a>
+                    </p>
+                    <p>
+                       <a href=""> Chat</a>
+                    </p>
+                    <p>
+                       <a href=""> Terms</a>
+                    </p>
+                </div>
+                <div class="linksContainer">
+                    <p class="title">Products</p>
+                    <p>
+                        <a href=""> Features</a>
+                    </p>
+                    <p>
+                       <a href=""> Pricing</a>
+                    </p>
+                    <p>
+                       <a href=""> Integrations</a>
+                    </p>
+                    <p>
+                       <a href=""> Demo</a>
+                    </p>
+                </div>
+                <div class="linksContainer">
+                    <p class="title">Social</p>
+                    <p>
+                        <a href="">LinkedIn</a>
+                    </p>
+                    <p>
+                       <a href=""> Facebook</a>
+                    </p>
+                    <p>
+                       <a href=""> Twitter</a>
+                    </p>
+                    <p>
+                       <a href=""> Intagram</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="Copyright">© All Rights are reserved</p>
+    </footer>
+    <script src="../js/burgermenu.js"></script>
+    <script src="https://kit.fontawesome.com/3183b49327.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/testimonial.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
     <title>Témoignages</title>
     <!-- font family poppins -->
@@ -14,25 +15,28 @@
                    
      <header class="home-testimonial">
         <nav class="home-nav-white topnav">
-            <img class="home-headerlogo" src="./../assets/home/logo.png" alt="logo">
+            <img class="home-headerlogo" src="../assets/home/logo.png" alt="logo">
 
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./catalog.html">Catalog</a></li>
-                <li><a href="./testimonial.html">Testimonial</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li class="home-register"><a href="./register">Register</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="home-register"><a href="register">Register</a></li>
             </ul>
+
+            <div id="mobilemenu" class="homesmallnav">
+                <i class="fa-solid fa-x home-close"></i>
+                <div>
+                    <a href="index.html">Home</a>
+                    <a href="catalog.html">Catalog</a>
+                    <a href="testimonial.html">Testimonial</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars home-burger"></i>
         </nav>
-        <div class="h2p-testimonial">
-            <div class="h1-testimonial">
-                <h1>Find your dream Home</h1>
-           </div>
-           <div class="p-testimonila">
-             <p>we understand the fact that modern people strive for <br>
-                 maximum comfort.</p>
-           </div>
-        </div>
      </header>
 
 
@@ -188,14 +192,12 @@
                               </div>
                             </div>
                         </div>
-                        <div class="item-galerie">
-                            <div class="item-test">
-                                <div class="opacity ">
-                                    <img src="../assets/testimonial/Frame 18.png" alt="">
-                                </div>
-                                <div class="Vector">
-                                    <img src="../assets/testimonial/Vector.png" alt="">
-                                </div>
+                        <div class="item-galerie ">
+                            <div class="opacity">
+                                <img src="../assets/testimonial/Frame 18.png" alt="">
+                            </div>
+                            <div class="Vector">
+                                <img src="../assets/testimonial/Vector.png" alt="">
                             </div>
                             <div class="media-ok">
                                 
@@ -258,10 +260,6 @@
                     </div>
                    </div>
              </section>
-
-
-             <!-- footer-->
-
              <footer>
                 <div class="footerContainer">
                     <div class="left">
@@ -338,5 +336,7 @@
                 </div>
                 <p class="Copyright">© All Rights are reserved</p>
             </footer>
+            <script src="../js/burgermenu.js"></script>
+            <script src="https://kit.fontawesome.com/3183b49327.js" crossorigin="anonymous"></script>
 </body>
 </html>
