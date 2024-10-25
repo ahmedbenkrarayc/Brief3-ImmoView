@@ -83,3 +83,5 @@ let image=Document.getElementsById("grand_image1");
 function changerImage(nouvelleImage) {
   document.getElementById('grand_image1').src = nouvelleImage;
 }
+
+
