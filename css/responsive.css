@@ -240,14 +240,16 @@ justify-self: center;
         align-items: start;
         width: 100%;
     }
-    .Catalog-Slides-bottom{
-        /* flex-wrap: wrap; */
-
+    .CatalogIcon{
+        margin-bottom: 72px;
+        
     }
     nav{
         display: none;
     }
     .Catlog-IconsCon{
+        margin-top: 90px;
+
         flex-direction: column;
         align-items: center;
         height: max-content;
