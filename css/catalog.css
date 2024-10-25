@@ -1,4 +1,27 @@
 /* start catalog */
+
+input[type="text"],
+    select {
+        width: 100%; 
+        padding: 10px;
+        border: 1px solid #ccc; 
+        border-radius: 5px;
+        font-size: 16px;
+        transition: border-color 0.3s;
+    }
+    input[type="text"]:focus,
+    select:focus {
+        border-color: #8B4513; 
+        outline: none; 
+    }
+
+    
+    label {
+        font-family: 'Garamond', serif; 
+        margin-bottom: 5px;
+        display: block; 
+    }
+
 footer{
     height: 300px;
     background-color: black;
@@ -6,6 +29,9 @@ footer{
     align-items: center;
     color: #8D8D8D;
     flex-direction: column;
+}
+.Catalog-desc-Upper h4 a{
+text-decoration: none;
 }
 .footerContainer{
     margin-top: 40px;
@@ -25,6 +51,7 @@ footer{
     width: 58%;
     justify-content: space-around;
 }
+
 .Copyright{
     margin-top: 21px;
 
@@ -114,7 +141,8 @@ footer{
     display: flex;
     width: 60%;
     justify-content: space-between;
-    height: max-content;
+    height: 200px;
+
 }
 
 .Catalog-ProprietiesFiltre{
@@ -195,7 +223,46 @@ footer{
 .Catalog-desc-infos{
     justify-content: space-between;
 }
+.Catalog-ForSalebutton{
+    background-color: rgb(30, 76, 30);
+    color: white;
+}
+.Catalog-Featuredbutton{
+    background-color: rgb(148, 210, 42);
+    color: white;
+}
+.Catalog-prix{
+    color: #EB664E;
+}
+.Catalog-ForSalebutton,.Catalog-Featuredbutton {
+    
+    color: white;
+    font-family: 'Garamond', serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.Catalog-ForSalebutton:hover {
+    background-color: #A0522D; /* Lighter brown on hover */
+    transform: scale(1.05);
+}
+.Catalog-Featuredbutton:hover{
+    transform: scale(1.05);
+    background-color: chartreuse;
+}
+
+.Catalog-ForSalebutton,.Catalog-Featuredbutton:active {
+    transform: scale(0.95);
+}
+
 .CP{
+    border-radius: 20px;
     width: 100%;
     height: 300px;
     background-size: cover;
@@ -204,13 +271,38 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
+.Catalog-seeAll{
+    background-color: #8B4513; /* Brown color */
+    color: white;
+    font-family: 'Garamond', serif; /* Elegant font */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.2s;
+}
+.Catalog-seeAll:hover{
+    background-color: #A0522D; 
+        transform: scale(1.05);
+}
+.Catalog-seeAll:active{
+    transform: scale(0.95);
+}
 .Catalog-proprieties{
     width: 100%;
 }
 .active, .dot:hover {
     background-color: #717171;
   }
+  .fade img {
+    border-radius: 20px;
+  }
   .fade {
+    margin-right: 12px;
+
     animation-name: fade;
     animation-duration: 1.5s;
   }
@@ -259,7 +351,8 @@ footer{
         display: none;
     }
     .Catalog-PropretiesContainer{
-        
+        width: 70%;
+
         display: grid;
       grid-template-columns: auto auto auto;
       gap: 10px;
@@ -267,7 +360,7 @@ footer{
     }
     .CatalogIcon{
         text-align: center;
-        width: 15%;
+        width: 29%;
         height: 100%;
     
     }
@@ -340,6 +433,7 @@ footer{
         display: none;
     }
     .Catlog-IconsCon{
+        height: 200px;
         flex-direction: column;
         align-items: center;
         height: max-content;
