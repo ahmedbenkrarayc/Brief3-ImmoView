@@ -1,0 +1,75 @@
+.Catalog-PropretiesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.CP {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 10px); /* Adjust width for responsiveness */
+    background-color: #fff;
+}
+
+.catalog-info {
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.catalog-desc {
+    padding: 15px;
+}
+
+.catalog-desc button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.catalog-desc button:hover {
+    background-color: #0056b3;
+}
+
+.Catalog-desc-Upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Catalog-desc-localisation {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.Catalog-desc-localisation img {
+    margin-right: 5px;
+}
+
+.Catalog-prix {
+    font-size: 1.5em;
+    color: #28a745;
+    margin-top: 10px;
+}
+
+.Catalog-proprety-infos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.catalog-bed, .catalog-Shower, .catalog-space {
+    display: flex;
+    align-items: center;
+}
+
+.catalog-bed img, .catalog-Shower img, .catalog-space img {
+    margin-right: 5px;
+}
